@@ -11,17 +11,10 @@ Rocky Allen,
 The purpose of this project is to automate generation of the WRHS website as much as possible, particularly the Trading Post stock listing.
 In general, you should never have to edit html or Java code directly.
 
-=== Source
-
-Github.
-
-=== Building
-
-Ubuntu with Java 7 or higher.
+It builds on Ubuntu with Java 7 or higher.
 Other new-ish linux systems should work.
-It is a NetBeans 8.2 project for convenience, but it can be built from the command line without NetBeans.
 
-=== Build tools and libraries
+It is a NetBeans 8.2 project for convenience, but it can be built from the command line without NetBeans.
 
 Internally it uses Java, JBake, Apache Ant, and Asciidoctor.
 
@@ -34,6 +27,14 @@ Internally it uses Java, JBake, Apache Ant, and Asciidoctor.
 * Install JBake (download and expand JBake.zip)
 
 * Copy or expand the entire wrhs folder next to the JBake folder.
+(You can put it elsewhere, but you will then have to edit the JBake path in build.xml.)
+
+=== Build
+
+* Open a command window and change directory to wrhs/.
+Type:
++
+ant build
 
 [[sect-preview]]
 == Preview
@@ -41,21 +42,16 @@ Internally it uses Java, JBake, Apache Ant, and Asciidoctor.
 * Start a local web server:
 +
 If you are using JBake, open a command window and change directory to wrhs/.
-Type
+Type:
 +
 ant preview
 +
 Or if you have python installed, open a command window and change directory to wrhs/output/.
-Type
+Type:
 +
 python -m SimpleHTTPServer 8080
 
-* Open another command window and change directory to wrhs/.
-Type
-+
-ant build
-
-* Open a browser and point it to 
+* Open a browser and point it to:
 +
 localhost:8080
 +
@@ -68,6 +64,8 @@ The website will appear served  directly from the output folder.
 Type
 +
 ant clean build deploy
++
+You will be prompted for the username and password.
 
 == Update the stock list
 
