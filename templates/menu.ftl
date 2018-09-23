@@ -8,10 +8,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/index.html">WRHS</a>
+          <a class="navbar-brand" href="/about.html">WRHS</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+            <li><a href="/index.html">Home</a></li>
             <li><a href="/news.html">News</a></li>
             <li><a href="/events.html">Events</a></li>
             <li><a href="/tradingpost/categories.html">Trading post</a></li>

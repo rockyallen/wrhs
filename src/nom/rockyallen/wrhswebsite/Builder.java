@@ -141,7 +141,7 @@ public class Builder {
             throw new DataException("Column 'Current Stock' not found in stock file");
         }
         if (orderColumn < 0) {
-            throw new DataException("Column 'on order' not found in stock file");
+            throw new DataException("Column 'On Order' not found in stock file");
         }
         while (reader.readRecord()) {
             String id = reader.get(idColumn);
