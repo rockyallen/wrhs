@@ -1,0 +1,106 @@
+= Contacts
+Rocky Allen
+2013-10-17
+:jbake-type: page
+:jbake-status: published
+
+== General enquiries
+
+mailto:enquiries@wrhs.org.uk[]
+
+Trading Post telephone (01305) 759668
+
+Emergencies out of hours TBD
+
+== Committee
+
+|===
+|POST |NAME |EMAIL
+
+|President 	
+|Brian Shaw 	
+|enquiries@wrhs.org.uk
+
+|Chair 	
+|Rachel Waldock 	
+|chair@wrhs.org.uk
+
+|Vice Chair 	
+|John Southway 	
+|enquiries@wrhs.org.uk
+
+|General Secretary 	
+|Carrie Dalby 	
+|general_secretary@wrhs.org.uk
+
+|Treasurer 	
+|Michelle Lindley 	
+|treasurer@wrhs.org.uk
+
+|Assistant Treasurer 	
+|Paul Clarke 	
+|treasurer@wrhs.org.uk
+
+|IT Manager 	
+|Dave Best 	
+|itmanager@wrhs.org.uk
+
+|Webmaster 	
+|Dave Best 	
+|webmaster@wrhs.org.uk
+
+|Newsletter Editor 	
+|Dave Best 	
+|newsletter@wrhs.org.uk
+
+|Trading Post 	
+|Andrea Inns 	
+|tradingteam@wrhs.org.uk
+
+|Trading Post 	
+|Rocky Allen 	
+|tradingteam@wrhs.org.uk
+
+|Purchasing 	
+|Jackie Hambling 	
+|purchasing@wrhs.org.uk
+
+|Purchasing 	
+|Alexis Van El 	
+|purchasing@wrhs.org.uk
+
+|Building Maintenance 	
+|Chris Mowlam 	
+|enquiries@wrhs.org.uk
+
+|Committee Member 	
+|Lorraine Bash 	
+|enquiries@wrhs.org.uk
+
+|Committee Member
+|Jill Head 	
+|enquiries@wrhs.org.uk
+
+|Committee Member 	
+|Christina Moody 	
+|enquiries@wrhs.org.uk
+
+|===
+
+== Trustees
+
+|===
+|NAME |EMAIL
+
+|TBD
+|
+
+|TBD
+|
+
+|TBD
+|
+
+|===
+
+

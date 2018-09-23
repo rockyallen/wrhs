@@ -1,0 +1,10 @@
+= WRHS Website generator
+Rocky Allen, 
+2018-09-27
+:jbake-type: page
+:jbake-status: draft
+
+// This is just so that you get a rendered version when you are working off-line.
+// The main readme is in the root and appears as the front page in github.
+
+include::../readme.adoc[tags="body"]

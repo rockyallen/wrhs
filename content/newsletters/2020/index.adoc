@@ -1,0 +1,8 @@
+:year: 2020
+= {year}
+Rocky Allen
+2013-10-17
+:jbake-type: page
+:jbake-status: published
+
+include::../../../templates/newsletterindex.adoc[]

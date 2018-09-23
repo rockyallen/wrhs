@@ -1,2 +1,0 @@
-# wrhs
-WRHS Website

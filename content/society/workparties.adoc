@@ -1,0 +1,30 @@
+= Work parties
+Rocky Allen
+2013-10-17
+:jbake-type: page
+:jbake-status: published
+
+
+If you can help, either just turn up, or contact the secretary at mailto:secretary@wrhs.org.uk[]
+
+[cols="<20a,<30a,<30a",options="header"]
+|===
+|Date |Jobs |People
+
+
+|2018-09-10, 1400-1700
+a|
+* Painting
+* Propogating
+* Cleaning
+
+a|
+* Carrie
+* Fred
+* Declan
+
+a|?
+|?
+|
+
+|===

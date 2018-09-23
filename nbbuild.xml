@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="wrhs" default="default" basedir=".">
+    <description>Builds, tests, and runs the project wrhs.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <!--
+    There exist several targets which are by default empty and which can be 
+    used for execution of your tasks. These targets are usually executed 
+    before and after some main targets. They are: 
+
+      -pre-init:                 called before initialization of project properties
+      -post-init:                called after initialization of project properties
+      -pre-compile:              called before javac compilation
+      -post-compile:             called after javac compilation
+      -pre-compile-single:       called before javac compilation of single file
+      -post-compile-single:      called after javac compilation of single file
+      -pre-compile-test:         called before javac compilation of JUnit tests
+      -post-compile-test:        called after javac compilation of JUnit tests
+      -pre-compile-test-single:  called before javac compilation of single JUnit test
+      -post-compile-test-single: called after javac compilation of single JUunit test
+      -pre-jar:                  called before JAR building
+      -post-jar:                 called after JAR building
+      -post-clean:               called after cleaning build products
+
+    -->
+    
+    <target name="-post-clean">
+        <echo>Removing last output...</echo>
+        <delete includeemptydirs="true">
+            <fileset dir="content/tradingpost/" includes="**/*"/>
+        </delete>    
+        <delete includeemptydirs="true">
+            <fileset dir="output" includes="**/*"/>
+        </delete>    
+    </target>
+
+    <target name="-pre-init">
+        <property name="jbake.home" location="../jbake-2.5.1/"/>
+        <property name="jbake.jar" location="${jbake.home}/jbake-core.jar"/>
+        <mkdir dir="output"/>
+    </target>
+
+    <target name="all" depends="clean,jar" description="Build and deploy">
+    </target>
+
+    <target name="-post-jar" depends="init" description="Build web site">
+        <echo>Creating website files ...</echo>
+        <java classpath="dist/wrhs.jar;lib/javacsv.jar" 
+              classname="nom.rockyallen.wrhswebsite.Builder"/>
+        <echo>Building website ...</echo>
+        <antcall target="-bake"/>
+    </target>
+
+    <target name="-bake" depends="init" description="Build web site">
+        <java fork="true" jar="${jbake.jar}">
+            <arg value="-b"/>
+        </java>
+    </target>
+
+    <target name="deploy" description="Deploy to server">
+        <echo>Not yet implemented, but easienst through JBake. Get details for Dave. Do NOT embed usernames or passwords in this file.</echo>
+    </target>
+
+    <target name="preview" depends="init" description="Preview website">
+        <java fork="true" jar="${jbake.jar}">
+            <arg value="-s"/>
+        </java>
+    </target>
+
+<target name="build" depends="jar"/>
+
+</project>
