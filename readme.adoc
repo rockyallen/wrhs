@@ -1,0 +1,231 @@
+= WRHS Website generator
+Rocky Allen, 
+2018-09-27
+:jbake-type: page
+:jbake-status: draft
+
+// tag::body[]
+
+== Introduction 
+
+The purpose of this project is to automate generation of the WRHS website as much as possible, particularly the Trading Post stock listing.
+In general, you should never have to edit html or Java code directly.
+
+=== Source
+
+Github.
+
+=== Building
+
+Ubuntu with Java 7 or higher.
+Other new-ish linux systems should work.
+It is a NetBeans 8.2 project for convenience, but it can be built from the command line without NetBeans.
+
+=== Build tools and libraries
+
+Internally it uses Java, JBake, Apache Ant, and Asciidoctor.
+
+== Installation
+
+* Install Java (sudo apt-get install java)
+
+* Install Ant (sudo apt-get install ant)
+
+* Install JBake (download and expand JBake.zip)
+
+* Copy or expand the entire wrhs folder next to the JBake folder.
+
+[[sect-preview]]
+== Preview
+
+* Start a local web server:
++
+If you are using JBake, open a command window and change directory to wrhs/.
+Type
++
+ant preview
++
+Or if you have python installed, open a command window and change directory to wrhs/output/.
+Type
++
+python -m SimpleHTTPServer 8080
+
+* Open another command window and change directory to wrhs/.
+Type
++
+ant build
+
+* Open a browser and point it to 
++
+localhost:8080
++
+The website will appear served  directly from the output folder.
+
+[[sect-upload]]
+== Upload to the public server
+
+* Open a command window and change directory to wrhs/.
+Type
++
+ant clean build deploy
+
+== Update the stock list
+
+* Download the 2 CSV files from EPOS, and put them in folder wrhs/tradingpost/, overwriting the current ones.
+
+* Open a command window and change directory to wrhs/.
+Type
++
+ant
+
+* Watch the screen for any errors. 
+Particularly look for any type of Exception.
+
+** The most common cause of *FileNotFoundException* is a missing file. 
+Did you accidentally delete one or rename it?
+
+** The most common cause of *IOException* is a file is open in another application such as PDF or Excel. 
+Close them.
+
+** The most common cause of *DataException* is new data in the product file. 
+To add a new category, see <<addcategory>>.
+
+[[addcategory]]
+== Add a category, or re-organise categories
+
+* Open wrhs/tradingpost/categorymapping.csv using Excel, Calc, or a text editor.
+
+* Add the new category and its mapping (which can be exactly the same as the category).
+The mapping is used only to organise the shopping screens.
+Each mapping has its own page.
+If you don't want a category to appear in the website, leave its mapping blank.
+__Please keep this file in alphabetic order__.
+
+* Any categories in the product file that do not have an entry in this file will cause an error when you build the website.
+
+* Add a new folder 
++
+wrhs/assets/images/{category}/
++
+where {category} is the name of the category exactly as it appears in the product file.
++
+[NOTE]
+The image folders are named after the ORIGINAL category, not the MAPPED category.
+
+* Create an image CATEGORY.png in the folder.
+This will be used as a thumbnail for that page.
+
+[[addproduct]]
+== Add a product
+
+Generally new products in existing categories just appear.
+If you want a specific thumbnail for the product, add a photo (<20K please) to 
+
+wrhs/assets/images/{category}/
+
+where {category} is the name of the category exactly as it appears in the product file.
+The file type can be .png or .jpg.
+The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
+To determine the required file name from the product name:
+
+* Replace all spaces with "_".
+* Replace all & with "and".
+* Replace commas with "_".
+* replace any sequences of "_" with a single "_".
+
+For example if the Product ID is "Weed & feed, 3 litre (bottle)", the file name must be "Weed_and_feed_3_litre_(bottle).png" or "Weed_and_feed_3_litre_(bottle).jpg".
+
+Preview the website to make sure that the image appears.
+
+== Add a meeting document
+
+* Copy the file to wrhs/assets/meetings/.
+
+* Add a new row to the table in wrhs/content/society/meetings.adoc following the existing examples.
+
+* Preview the website (<<sect-preview>>).
+
+* Make sure that your new documents are listed.
+
+* Click each document link to make sure it works.
+
+* Upload the website (<<sect-upload>>).
+
+[[add-newsletter]]
+== Add a newsletter in the current year (YYYY)
+
+* Create a thumbnail for it (png, width 212 pixels, height 300 pixels).
+
+* Make sure that the file names are like yyyy-mm.pdf and yyyy-mm.png.
+
+* Drop the thumbnail and the pdf file in wrhs/assets/newsletters/YYYY. 
+
+== Add a newsletter for a new year
+
+The website is prepared up to 2020. 
+To make future years visible, uncomment them in file templates/menu.ftl, ie change 
++
+  <!-- <li><a href="/newsletters/2019/index.html">2019</a></li> -->
++
+to
++
+  <li><a href="/newsletters/2019/index.html">2019</a></li>
++
+For years after 2020 (for example 2021):
+
+* Create a folder wrhs/assets/newsletters/2021/.
+
+* Create a folder wrhs/content/newsletters/2021/.
+
+* Copy file wrhs/content/newsletters/2018/index.adoc to wrhs/content/newsletters/2021/.
+
+* Edit wrhs/content/newsletters/2021/index.adoc and replace this line:
++
+:year: 2018
++
+with
+:
+:year: 2021
+
+* Edit file templates/menu.ftl and add a new line 
++
+  <li><a href="/newsletters/2019/index.html">2021</a></li>
++
+in the "Newsletters" dropdown (~line 23).
+
+* Add the newsletter as above (<<add-newsletter>>).
+
+== Change other content
+
+Most of the content is generated by asciidoc (.adoc) files (http:///asciidoctor.org).
+
+Edit the file in any text editor (NOT Word) following the existing example, then preview (<<sect-preview>>) and upload (<<sect-upload>>).
+
+|===
+|File | Generated page
+
+|wrhs/content/events.adoc
+|Events page
+
+|wrhs/content/society/workparties.adoc
+|Work parties page
+
+|wrhs/content/society/meetings.adoc
+|Society->Meetings. See <<addmeeting>>.
+
+|wrhs/content/society/contacts.adoc
+|Society->Committee
+
+|===
+
+== Change the theme
+
+Edit files in wrhs/assets/css/. 
+You are on your own.
+
+== Edit the product listings
+
+These are done in Java. 
+See the builder class in wrhs/src/.
+
+// end::body[]
