@@ -17,7 +17,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Ugly class to convert CSV files to web site.
+ * Ugly class to convert CSV files to web site via Asciidoc files.
  *
  * @author rocky
  */
@@ -132,17 +132,27 @@ public class Builder {
         CsvReader reader = open(STOCK_FILE);
         int idColumn = reader.getIndex("ProductID");
         int stockColumn = reader.getIndex("Current Stock");
+        int orderColumn = reader.getIndex("On Order");
 
         if (idColumn < 0) {
-            throw new DataException("Column ProductID not found in stock file");
+            throw new DataException("Column 'ProductID' not found in stock file");
         }
         if (stockColumn < 0) {
-            throw new DataException("Column Current Stock not found in stock file");
+            throw new DataException("Column 'Current Stock' not found in stock file");
+        }
+        if (orderColumn < 0) {
+            throw new DataException("Column 'on order' not found in stock file");
         }
         while (reader.readRecord()) {
             String id = reader.get(idColumn);
             Product r = items.get(id);
             if (r != null) {
+                String order = reader.get(orderColumn).trim();
+                if ("".equals(order)) {
+                    r.onOrder = 0;
+                } else {
+                    r.onOrder = Integer.parseInt(order);
+                }
                 String stockLevel = reader.get(stockColumn);
                 //System.out.println("stocklevel=["+stockLevel+ "]");
                 if (!"".equals(stockLevel)) {
@@ -200,9 +210,9 @@ public class Builder {
                     new File(categoryFolder, name + ".png"),
                     new File(categoryFolder, name + ".jpg"),
                     new File(categoryFolder, id + ".png"),
-                    new File(categoryFolder, id + ".jpg"),
-                    new File(categoryFolder, "CATEGORY.png"),
-                    new File(categoryFolder, "CATEGORY.jpg"),};
+                    new File(categoryFolder, id + ".jpg"), //    new File(categoryFolder, "CATEGORY.png"),
+                //    new File(categoryFolder, "CATEGORY.jpg"),
+                };
 
                 for (File f : testFiles) {
                     if (f.exists()) {
@@ -213,9 +223,9 @@ public class Builder {
                     }
                 }
             }
-            if (e.getValue().image == null) {
-                e.getValue().image = new File(root, "placeholder.png");
-            }
+//            if (e.getValue().image == null) {
+//                e.getValue().image = new File(root, "placeholder.png");
+//            }
         }
         if (!notFound.isEmpty()) {
             for (String s : notFound) {
@@ -312,10 +322,10 @@ public class Builder {
      */
     private void makeCategoryPage(String category, Collection<Product> inCategory, String filename) throws IOException {
         //System.out.println("Creating page for " + category);
-        int cols = 6;
+        int cols = 8;
         AsciidocBuilder sb = new AsciidocBuilder();
         sb.header(category);
-        sb.line("[header=false,cols=" + cols + ",grid=1,frame=1]");
+        sb.line("[options=noheader,cols=" + cols + ",grid=1,frame=1]");
         sb.line("|===");
         //sb.line("| |Name |Description |price |Stock (at {localdate}) |Notes");
         for (Product p : inCategory) {
@@ -327,12 +337,12 @@ public class Builder {
                 image = "/images/" + url(p.image.getParentFile().getName() + "/" + p.image.getName()) + "[]";
             }
 
-            sb.line("a|image::" + image);
-            sb.line("|" + p.name);
+            sb.line("|**" + p.name + "**");
             sb.line("\n" + p.description);
-            sb.line("\n&#163;" + p.price);
-            sb.line("\nstock=" + p.stock);
+            sb.line("\n" + String.format("&#163;%4.2f", p.price));
+            //sb.line("\nstock=" + p.stock);
             sb.line("\n" + p.message);
+            sb.line("a|image::" + image);
         }
 
         // table must have complete rows otherwise the last row is truncated
@@ -345,8 +355,28 @@ public class Builder {
         sb.write(new File(OUTPUT_FOLDER, filename + ".adoc"));
     }
 
+    /**
+     * Mangle s into a string suitable for a Windows or Unix filename.
+     *
+     * . Replace & with " and ".
+     *
+     * . Replace all non 0-9 or a-z or A-Z with "_".
+     *
+     * . Replace any sequences of "_" with a single "_".
+     *
+     * . Remove leading and trailing "_".
+     *
+     * For example sanitise("Weed & feed, 3 litre (bottle)") =
+     * "Weed_and_feed_3_litre_bottle".
+     *
+     * @param s
+     * @return
+     */
     public static String sanitise(String s) {
-        return s.replaceAll("\\s", "_").replaceAll("&", "_and_").replaceAll(":", "_").replaceAll("/", "_").replaceAll("__", "_");
+        return s.replaceAll("&", " and ")
+                .replaceAll("[^a-zA-Z0-9]+", "_")
+                .replaceAll("_*$", "")
+                .replaceAll("^_*", "");
     }
 
     /**
@@ -362,7 +392,15 @@ public class Builder {
      */
     private void synthesiseMessages(Map<String, Product> products) {
         for (Product p : products.values()) {
-            p.message = "TBD";
+            if (p.stock <= 0) {
+                if (p.onOrder > 0) {
+                    p.message = "ON ORDER";
+                } else {
+                    p.message = "OUT OF STOCK";
+                }
+            } else if (p.stock <= 2) {
+                p.message = "ALMOST GONE";
+            }
         }
     }
 

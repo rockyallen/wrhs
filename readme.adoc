@@ -126,15 +126,13 @@ The file type can be .png or .jpg.
 The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
 To determine the required file name from the product name:
 
-* Replace all spaces with "_".
+. Replace all non 0-9 or a-z or A-Z with "_".
 
-* Replace all & with "and".
+. Replace any sequences of "_" with a single "_".
 
-* Replace commas with "_".
+. Remove leading and trailing "_".
 
-* replace any sequences of "_" with a single "_".
-
-For example if the Product ID is "Weed & feed, 3 litre (bottle)", the file name must be "Weed_and_feed_3_litre_(bottle).png" or "Weed_and_feed_3_litre_(bottle).jpg".
+For example if the Product ID is "Weed & feed, 3 litre (bottle)", the file name must be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
 
 Preview the website to make sure that the image appears.
 
@@ -159,7 +157,7 @@ Preview the website to make sure that the image appears.
 
 * Make sure that the file names are like yyyy-mm.pdf and yyyy-mm.png.
 
-* Drop the thumbnail and the pdf file in wrhs/assets/newsletters/YYYY. 
+* Put the thumbnail and the pdf file in wrhs/assets/newsletters/YYYY. 
 
 == Add a newsletter for a new year
 
@@ -186,12 +184,12 @@ For years after 2020 (for example 2021):
 
 * Copy file wrhs/content/newsletters/2018/index.adoc to wrhs/content/newsletters/2021/.
 
-* Edit wrhs/content/newsletters/2021/index.adoc and replace this line:
+* Edit wrhs/content/newsletters/2021/index.adoc and replace this line
 +
   :year: 2018
 +
 with
-:
++
   :year: 2021
 
 * Edit file templates/menu.ftl and add a new line 
@@ -236,6 +234,6 @@ You are on your own.
 == Edit the product listings
 
 These are done in Java. 
-See the builder class in wrhs/src/.
+See the Builder class in wrhs/src/.
 
 // end::body[]

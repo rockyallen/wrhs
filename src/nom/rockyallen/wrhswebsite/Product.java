@@ -8,13 +8,14 @@ import java.io.File;
  */
 class Product implements Comparable{
 
-    String category = "";
-    String name = "";
-    String description = "";
-    double price = -999.0;
-    int stock = -999;
-    File image = null;
-    String message = "";
+    public String category = "";
+    public String name = "";
+    public String description = "";
+    public double price = -999.0;
+    public int stock = -999;
+    public File image = null;
+    public String message = "";
+    public int onOrder;
 
     @Override
     public String toString() {
