@@ -193,8 +193,6 @@ For years after 2020 (for example 2021):
 
 * Create a folder wrhs/content/newsletters/2021/.
 
-* Copy file wrhs/content/newsletters/2018/index.adoc to wrhs/content/newsletters/2021/.
-
 * Edit wrhs/nbbuild.xml and add a new line to the "-post-jar" target following the example of the others.
 
 * Edit file templates/menu.ftl and add a new line 
@@ -223,11 +221,20 @@ Edit the file in any text editor (NOT Word) following the existing example, then
 |===
 |File | Generated page
 
-|wrhs/content/events.adoc
-|Events page
+|wrhs/content/join.adoc
+|Join
+
+|wrhs/content/links.adoc
+|Links
+
+|wrhs/content/tips.adoc
+|Horticultural tips
+
+|wrhs/content/about.adoc
+|Society->About
 
 |wrhs/content/society/workparties.adoc
-|Work parties page
+|Society->Work parties
 
 |wrhs/content/society/meetings.adoc
 |Society->Meetings. See <<addmeeting>>.
@@ -235,12 +242,15 @@ Edit the file in any text editor (NOT Word) following the existing example, then
 |wrhs/content/society/contacts.adoc
 |Society->Committee
 
+|wrhs/content/tips/
+|Not used (future)
+
 |===
 
 == Change the theme
 
 Edit files in wrhs/assets/css/. 
-You are on your own.
+You are on your own. (but needs work).
 
 == Edit the format of Trading Post product listings
 
