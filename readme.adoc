@@ -111,7 +111,7 @@ To determine the required file name from the product name:
 
 . Replace all non 0-9 or a-z or A-Z with "_".
 
-. Collapse any sequences of "\_" with a single "\_".
+. Collapse any sequences of "\_" with a single "_".
 
 . Remove leading and trailing "_".
 
