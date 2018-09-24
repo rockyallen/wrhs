@@ -43,7 +43,7 @@ I think.
 * Open a command window and change directory to wrhs/.
 Type:
 +
-ant build
+  ant build
 
 [[sect-preview]]
 == Preview
@@ -58,13 +58,10 @@ ant preview
 Or if you have python installed, open a command window and change directory to wrhs/output/.
 Type:
 +
-python -m SimpleHTTPServer 8080
+  python -m SimpleHTTPServer 8080
 
-* Open a browser and point it to:
-+
-localhost:8080
-+
-The website will appear served  directly from the output folder.
+* Open a browser and point it to *localhost:8080*.
+The website will appear, served directly from the output folder.
 
 [[sect-upload]]
 == Upload to the public server
@@ -72,7 +69,7 @@ The website will appear served  directly from the output folder.
 * Open a command window and change directory to wrhs/.
 Type
 +
-ant clean build deploy
+  ant clean build deploy
 +
 You will be prompted for the username and password.
 
@@ -83,7 +80,7 @@ You will be prompted for the username and password.
 * Open a command window and change directory to wrhs/.
 Type
 +
-ant
+  ant
 
 * Watch the screen for any errors. 
 Particularly look for any type of Exception.
@@ -142,11 +139,11 @@ All categories listed in the product file must have a matching entry in the cate
 
 * Type the page that you want to show the product into the "mapping" column next to the category name.
 You can use a new name which will result in a new page, or you can use an existing name so that the item is added to that page.
-If you don't want a category to appear on any page, leave its mapping blank.
+If you don't want a category to appear at all, leave its mapping blank.
 
 * Add a new folder 
 +
-wrhs/assets/images/{category}/
+  wrhs/assets/images/{category}/
 +
 where {category} is the name of the category exactly as it appears in the "Category" column.
 
@@ -286,7 +283,7 @@ git merge upstream/master
 git push origin master
 ----
 
-(You should probably so this before you start making any changes as well)
+(You should probably do this before you start making any changes as well)
 
 Now you can commit your changes. 
 The Git gui is probably easier than the command line:
