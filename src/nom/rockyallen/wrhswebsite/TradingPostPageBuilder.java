@@ -30,6 +30,8 @@ public class TradingPostPageBuilder extends Task {
 
     private File root = null;
 
+    private int cols = 8;
+
     @Override
     public void execute() throws BuildException {
 
@@ -47,6 +49,7 @@ public class TradingPostPageBuilder extends Task {
             synthesiseMessages(products);
 
             makeWeb(products);
+            
         } catch (Exception ex) {
             throw new BuildException(ex);
         }
@@ -69,7 +72,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws NumberFormatException
      */
     private void readProducts(Map<String, Product> items) throws IOException, NumberFormatException {
-        System.out.println("Reading products...");
+        //System.out.println("Reading products...");
         CsvReader r1 = open(new File(root, PRODUCT_FILE));
         int r1_idColumn = r1.getIndex("ProductID");
         int r1_nameColumn = r1.getIndex("Product Name");
@@ -121,7 +124,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws DataException if
      */
     private void updateStockLevels(Map<String, Product> items) throws IOException, NumberFormatException, Exception {
-        System.out.println("Updating stock levels...");
+        //System.out.println("Updating stock levels...");
         CsvReader reader = open(new File(root, STOCK_FILE));
         int idColumn = reader.getIndex("ProductID");
         int stockColumn = reader.getIndex("Current Stock");
@@ -182,7 +185,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws FileNotFoundException
      */
     private void addImages(Map<String, Product> items) throws FileNotFoundException {
-        System.out.println("Adding images...");
+        //System.out.println("Adding images...");
         File root = new File(TRADINGPOST_IMAGES);
         Collection<String> notFound = new TreeSet<String>();
 
@@ -191,7 +194,7 @@ public class TradingPostPageBuilder extends Task {
             String cat = e.getValue().category;
             String name = sanitise(e.getValue().name);
 
-            System.out.println(cat + ":" + name);
+            //System.out.println(cat + ":" + name);
 
             String id = e.getKey();
 
@@ -232,7 +235,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws DataException
      */
     private void mergeAndRenameCategories(Map<String, Product> products) throws FileNotFoundException, IOException, DataException {
-        System.out.println("Mapping categories...");
+        //System.out.println("Mapping categories...");
         CsvReader reader = open(new File(root, CATEGORY_MAPPING));
         Map<String, String> mapping = new HashMap<String, String>();
 
@@ -267,7 +270,7 @@ public class TradingPostPageBuilder extends Task {
      * @param products
      */
     private void makeWeb(Map<String, Product> products) throws IOException {
-        System.out.println("Generating source files ...");
+        //System.out.println("Generating source files for web pages...");
 
         // list the unique categories
         SortedSet<String> categories = new TreeSet<String>();
@@ -299,11 +302,11 @@ public class TradingPostPageBuilder extends Task {
         sb.line(
                 "\nAll information on this website is offered in good faith but is used entirely at the user's own risk. ");
 
-        sb.write(new File(new File(root,OUTPUT_FOLDER), "categories.adoc"));
+        sb.write(new File(new File(root, OUTPUT_FOLDER), "categories.adoc"));
     }
 
     /**
-     * Write a page for the category
+     * Write a page for the category. Currently outputs a table with
      *
      * @param category Display name of the category
      * @param inCategory products in the category
@@ -312,7 +315,6 @@ public class TradingPostPageBuilder extends Task {
      */
     private void makeCategoryPage(String category, Collection<Product> inCategory, String filename) throws IOException {
         //System.out.println("Creating page for " + category);
-        int cols = 8;
         AsciidocBuilder sb = new AsciidocBuilder();
         sb.header(category);
         sb.line("[options=noheader,cols=" + cols + ",grid=1,frame=1]");
@@ -342,7 +344,7 @@ public class TradingPostPageBuilder extends Task {
         }
 
         sb.line("|===");
-        sb.write(new File(new File(root,OUTPUT_FOLDER), filename + ".adoc"));
+        sb.write(new File(new File(root, OUTPUT_FOLDER), filename + ".adoc"));
     }
 
     /**
@@ -378,6 +380,8 @@ public class TradingPostPageBuilder extends Task {
      *
      * etc
      *
+     * The algorithm probably needs twiddling.
+     *
      * @param products
      */
     private void synthesiseMessages(Map<String, Product> products) {
@@ -394,21 +398,35 @@ public class TradingPostPageBuilder extends Task {
         }
     }
 
+    /**
+     * A hack - I want to make sure that the folder and file names are valid
+     * when trweated as a url. Filenames are normally less restrictive that urls
+     * in many ways. This hack just escapes space characters which appear to be
+     * the only problems in the given files. IF you get image not found errors
+     * with new categories, suspect this method.
+     *
+     * @param s
+     * @return
+     */
     public static String url(String s) {
         return s.replace(" ", "%20");
     }
 
     /**
-     * @return the root
-     */
-    public File getRoot() {
-        return root;
-    }
-
-    /**
+     * Sets the base folder for all files. Usually set to ${basedir}.
+     *
      * @param root the root to set
      */
     public void setRoot(File root) {
         this.root = root;
+    }
+
+    /**
+     * Resize output table
+     *
+     * @param i Number of columns - must be even. Default is 8.
+     */
+    public void setCols(int i) {
+        this.cols = i;
     }
 }

@@ -4,7 +4,7 @@ import java.io.File;
 
 /**
  * Helper to hold data for a product.
- * Alphabetically ordered by name.
+ * Comparable: Alphabetically ordered by name, ignoring case.
  */
 class Product implements Comparable{
 
@@ -15,7 +15,7 @@ class Product implements Comparable{
     public int stock = -999;
     public File image = null;
     public String message = "";
-    public int onOrder;
+    public int onOrder = 0;
 
     @Override
     public String toString() {

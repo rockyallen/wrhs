@@ -12,7 +12,7 @@ The purpose of this project is to automate generation of the WRHS website as muc
 In general, you should never have to edit html or Java code directly.
 Another goal is to make it cross-browser and server-agnostic. 
 To this end, I avoid JS, CMS, php etc. 
-I do use some CSS but it should be usable without (as yet untested).
+I do use some CSS but it should be viewable without (as yet untested).
 
 It is a NetBeans 8.2 project for convenience, but it can be built from the command line without NetBeans.
 
@@ -31,7 +31,7 @@ I think.
 
 * Install Ant (sudo apt-get install ant)
 
-* Install Git (only required to update the source) (sudo apt-get install git)
+* Install Git (only required if you want to update the source) (sudo apt-get install git)
 
 * Install JBake (download and expand JBake.zip)
 
@@ -153,6 +153,7 @@ where {category} is the name of the category exactly as it appears in the "Categ
 * Create an image CATEGORY.png in the folder.
 This will be used as a thumbnail for that page (one day).
 
+[[addmeeting]]
 == Add a meeting document
 
 * Copy the file to wrhs/assets/meetings/.
@@ -256,7 +257,7 @@ Edit the file in any text editor (NOT Word) following the existing example, then
 == Change the theme
 
 Edit files in wrhs/assets/css/. 
-You are on your own. (but needs work).
+You are on your own. (but theme needs work).
 
 == Edit the format of Trading Post product listings
 
@@ -269,5 +270,30 @@ Eg events, newsletters.
 
 These are done in Java. 
 See the CatalogueFolder class in wrhs/src/.
+
+== Commit changes
+
+If you have a checkout already, make sure that it is up to date with master:
+
+[source]
+----
+git fetch upstream
+
+git checkout master
+
+git merge upstream/master
+
+git push origin master
+----
+
+(You should probably so this before you start making any changes as well)
+
+Now you can commit your changes. 
+The Git gui is probably easier than the command line:
+
+[source]
+----
+git gui
+----
 
 // end::body[]
