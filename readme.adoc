@@ -97,6 +97,35 @@ Close them.
 ** The most common cause of *DataException* is new data in the product file. 
 To add a new category, see <<addcategory>>.
 
+[[addproduct]]
+== Add a product in an existing category
+
+Generally new products in existing categories just appear, but you probably want to give it a specific thumbnail.
+
+The file type can be either .png or .jpg.
+
+The file size should be less than 20K (5K is better)
+
+The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
+To determine the required file name from the product name:
+
+. Replace all non 0-9 or a-z or A-Z with "_".
+
+. Collapse any sequences of "\_" with a single "\_".
+
+. Remove leading and trailing "_".
+
+For example if the Product ID is 10056, you can name the file 10056.png or 10056.jpg.
+Alternatively, if the Product Name is "Weed & feed, 3 litre (bottle)", the file name can be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
+
+Add the photo to 
+
+wrhs/assets/images/{category}/
+
+where {category} is the name of the category *exactly* as it appears in the product file.
+
+Preview the website to make sure that the image appears correctly (<<sect-preview>>).
+
 [[addcategory]]
 == Add a category, or re-organise categories
 
@@ -123,35 +152,6 @@ where {category} is the name of the category exactly as it appears in the "Categ
 
 * Create an image CATEGORY.png in the folder.
 This will be used as a thumbnail for that page (one day).
-
-[[addproduct]]
-== Add a product in an existing category
-
-Generally new products in existing categories just appear, but you probably want to give it a specific thumbnail.
-
-The file type can be either .png or .jpg.
-
-The file size should be less than 20K (5K is better)
-
-The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
-To determine the required file name from the product name:
-
-. Replace all non 0-9 or a-z or A-Z with "_".
-
-. Replace any sequences of "_" with a single "_".
-
-. Remove leading and trailing "_".
-
-For example if the Product ID is 10056, you can name the file 10056.png or 10056.jpg.
-Alternatively, if the Product Name is "Weed & feed, 3 litre (bottle)", the file name can be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
-
-Add the photo to 
-
-wrhs/assets/images/{category}/
-
-where {category} is the name of the category *exactly* as it appears in the product file.
-
-Preview the website to make sure that the image appears correctly.
 
 == Add a meeting document
 
