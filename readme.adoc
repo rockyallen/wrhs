@@ -127,13 +127,12 @@ This will be used as a thumbnail for that page (one day).
 [[addproduct]]
 == Add a product in an existing category
 
-Generally new products in existing categories just appear.
-If you want a specific thumbnail for the product, add a photo (<20K please) to 
+Generally new products in existing categories just appear, but you probably want to give it a specific thumbnail.
 
-wrhs/assets/images/{category}/
+The file type can be either .png or .jpg.
 
-where {category} is the name of the category exactly as it appears in the product file.
-The file type can be .png or .jpg.
+The file size should be less than 20K (5K is better)
+
 The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
 To determine the required file name from the product name:
 
@@ -143,7 +142,14 @@ To determine the required file name from the product name:
 
 . Remove leading and trailing "_".
 
-For example if the Product ID is "Weed & feed, 3 litre (bottle)", the file name must be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
+For example if the Product ID is 10056, you can name the file 10056.png or 10056.jpg.
+Alternatively, if the Product Name is "Weed & feed, 3 litre (bottle)", the file name can be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
+
+Add the photo to 
+
+wrhs/assets/images/{category}/
+
+where {category} is the name of the category *exactly* as it appears in the product file.
 
 Preview the website to make sure that the image appears correctly.
 
@@ -208,7 +214,7 @@ in the "Newsletters" dropdown (~line 23).
 
 == Add an event
 
-Create a pdf and a thumbnail (.png) and drop them in wrhs/assets/events/ in the same way as newletters (<<add-newsletter>>).
+Create a pdf and a matching thumbnail (.png) and drop them in wrhs/assets/events/ in the same way as newletters (<<add-newsletter>>).
 
 Files are presented in alphabetical order, so if you start the filename with the date, they will appear in date order.
 
