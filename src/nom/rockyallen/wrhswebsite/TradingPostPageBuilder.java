@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,15 +12,15 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.TreeSet;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.apache.tools.ant.BuildException;
+import org.apache.tools.ant.Task;
 
 /**
  * Ugly class to convert CSV files to web site via Asciidoc files.
  *
  * @author rocky
  */
-public class Builder {
+public class TradingPostPageBuilder extends Task {
 
     private static final String TRADINGPOST_IMAGES = "assets/images/";
     private static final String STOCK_FILE = "tradingpost/WRHSTradingPost_Self_StockImportTemplate.csv";
@@ -29,33 +28,28 @@ public class Builder {
     private static final String OUTPUT_FOLDER = "content/tradingpost/";
     private static final String CATEGORY_MAPPING = "tradingpost/categorymapping.csv";
 
-    public static void main(String[] args) throws Exception {
+    private File root = null;
+
+    @Override
+    public void execute() throws BuildException {
 
         try {
-            new Builder().build();
+            Map<String, Product> products = new TreeMap<String, Product>();
+
+            readProducts(products);
+
+            updateStockLevels(products);
+
+            addImages(products);
+
+            mergeAndRenameCategories(products);
+
+            synthesiseMessages(products);
+
+            makeWeb(products);
         } catch (Exception ex) {
-            Logger.getLogger(Builder.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println(ex);
-            System.exit(1);
+            throw new BuildException(ex);
         }
-        System.exit(0);
-    }
-
-    public void build() throws Exception {
-
-        Map<String, Product> products = new TreeMap<String, Product>();
-
-        readProducts(products);
-
-        updateStockLevels(products);
-
-        addImages(products);
-
-        mergeAndRenameCategories(products);
-
-        synthesiseMessages(products);
-
-        makeWeb(products);
     }
 
     /**
@@ -76,7 +70,7 @@ public class Builder {
      */
     private void readProducts(Map<String, Product> items) throws IOException, NumberFormatException {
         System.out.println("Reading products...");
-        CsvReader r1 = open(PRODUCT_FILE);
+        CsvReader r1 = open(new File(root, PRODUCT_FILE));
         int r1_idColumn = r1.getIndex("ProductID");
         int r1_nameColumn = r1.getIndex("Product Name");
         int r1_categoryColumn = r1.getIndex("Category Name");
@@ -103,8 +97,7 @@ public class Builder {
      * @param fname
      * @return
      */
-    private CsvReader open(String fname) throws FileNotFoundException, IOException {
-        File f = new File(fname);
+    private CsvReader open(File f) throws FileNotFoundException, IOException {
         if (!f.exists()) {
             throw new FileNotFoundException(f.getAbsolutePath());
         }
@@ -129,7 +122,7 @@ public class Builder {
      */
     private void updateStockLevels(Map<String, Product> items) throws IOException, NumberFormatException, Exception {
         System.out.println("Updating stock levels...");
-        CsvReader reader = open(STOCK_FILE);
+        CsvReader reader = open(new File(root, STOCK_FILE));
         int idColumn = reader.getIndex("ProductID");
         int stockColumn = reader.getIndex("Current Stock");
         int orderColumn = reader.getIndex("On Order");
@@ -223,9 +216,6 @@ public class Builder {
                     }
                 }
             }
-//            if (e.getValue().image == null) {
-//                e.getValue().image = new File(root, "placeholder.png");
-//            }
         }
         if (!notFound.isEmpty()) {
             for (String s : notFound) {
@@ -243,7 +233,7 @@ public class Builder {
      */
     private void mergeAndRenameCategories(Map<String, Product> products) throws FileNotFoundException, IOException, DataException {
         System.out.println("Mapping categories...");
-        CsvReader reader = open(CATEGORY_MAPPING);
+        CsvReader reader = open(new File(root, CATEGORY_MAPPING));
         Map<String, String> mapping = new HashMap<String, String>();
 
         int categorycol = reader.getIndex("category");
@@ -309,7 +299,7 @@ public class Builder {
         sb.line(
                 "\nAll information on this website is offered in good faith but is used entirely at the user's own risk. ");
 
-        sb.write(new File(OUTPUT_FOLDER, "categories.adoc"));
+        sb.write(new File(new File(root,OUTPUT_FOLDER), "categories.adoc"));
     }
 
     /**
@@ -352,7 +342,7 @@ public class Builder {
         }
 
         sb.line("|===");
-        sb.write(new File(OUTPUT_FOLDER, filename + ".adoc"));
+        sb.write(new File(new File(root,OUTPUT_FOLDER), filename + ".adoc"));
     }
 
     /**
@@ -406,5 +396,19 @@ public class Builder {
 
     public static String url(String s) {
         return s.replace(" ", "%20");
+    }
+
+    /**
+     * @return the root
+     */
+    public File getRoot() {
+        return root;
+    }
+
+    /**
+     * @param root the root to set
+     */
+    public void setRoot(File root) {
+        this.root = root;
     }
 }

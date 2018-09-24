@@ -186,7 +186,7 @@ p a > code:hover { color: #561309; }
 
 #header { margin-bottom: 2.5em; }
 #header > h1 { color: black; font-weight: normal; border-bottom: 1px solid #dddddd; margin-bottom: -28px; padding-bottom: 32px; }
-#header span { color: #6f6f6f; }
+#header span { color: red; }
 #header #revnumber { text-transform: capitalize; }
 #header br { display: none; }
 #header br + span { padding-left: 3px; }

@@ -7,15 +7,15 @@ import java.io.FileFilter;
  *
  * @author rocky
  */
-public class ImageTypeFilter implements FileFilter{
+public class PdfTypeFilter implements FileFilter{
 
-    public ImageTypeFilter() {
+    public PdfTypeFilter() {
     }
 
     @Override
     public boolean accept(File file) {
         String fname = file.getName().toLowerCase();
-        return fname.endsWith(".png") || fname.endsWith(".jpg") || fname.endsWith(".gif");
+        return fname.endsWith(".pdf");
     }
     
 }

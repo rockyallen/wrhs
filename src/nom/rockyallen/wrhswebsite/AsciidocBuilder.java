@@ -35,6 +35,10 @@ public AsciidocBuilder()
         sb.append(s).append("\n");
     }
 
+    public void text(String s) {
+        sb.append(s);
+    }
+
     public void write(File file) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
         writer.write(sb.toString());

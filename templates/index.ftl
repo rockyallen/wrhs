@@ -7,7 +7,7 @@
 
 <map name="image-map">
     <area target="" alt="Links" title="Links" href="/links.html" coords="189,331,292,449" shape="rect">
-    <area target="" alt="News" title="News" href="/news.html" coords="440,464,337,344" shape="rect">
+    <area target="" alt="News" title="News" href="/newsletters/index.html" coords="440,464,337,344" shape="rect">
     <area target="" alt="Contacts" title="Contacts" href="/society/contacts.html" coords="259,525,360,638" shape="rect">
     <area target="" alt="Events" title="Events" href="/events.html" coords="439,517,556,644" shape="rect">
     <area target="" alt="Join" title="Join" href="/join.html" coords="723,505,847,636" shape="rect">

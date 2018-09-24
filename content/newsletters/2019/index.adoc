@@ -1,8 +1,12 @@
-:year: 2019
-= {year}
-Rocky Allen
-2013-10-17
+= 2019
+Auto generated
+2018-09-24
 :jbake-type: page
 :jbake-status: published
 
-include::../../../templates/newsletterindex.adoc[]
+
+
+
+
+
+Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018]

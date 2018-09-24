@@ -4,9 +4,9 @@ Rocky Allen
 :jbake-type: page
 :jbake-status: published
 
-link:tips/fertiliser.html[Which Fertiliser?] 	An explanation of N:P:K ratings and how to choose the fertiliser you really need.
+link:tips/WhichFertiliser.pdf[Which Fertiliser?] An explanation of N:P:K ratings and how to choose the fertiliser you really need.
 
-link:tips/potatoes.html[Fertilisers for Potatoes] What to apply, and when to apply it, when growing potatoes.
+link:tips/PotatoFertiliser.pdf[Fertilisers for Potatoes] What to apply, and when to apply it, when growing potatoes.
 
-link:tips/fungi.html[Mycorrhizal Fungi] Using mycorrhizal fungi products to promote plant growth.
+link:tips/MycorrhizalFungi.pdf[Mycorrhizal Fungi] Using mycorrhizal fungi products to promote plant growth.
 

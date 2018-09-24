@@ -1,8 +1,12 @@
-:year: 2016
-= {year}
-Rocky Allen
-2013-10-17
+= 2016
+Auto generated
+2018-09-24
 :jbake-type: page
 :jbake-status: published
 
-include::../../../templates/newsletterindex.adoc[]
+
+
+
+image:2016-01.png[2016-01.pdf,link=2016-01.pdf] image:2016-02.png[2016-02.pdf,link=2016-02.pdf] image:2016-03.png[2016-03.pdf,link=2016-03.pdf] image:2016-04.png[2016-04.pdf,link=2016-04.pdf] image:2016-05.png[2016-05.pdf,link=2016-05.pdf] image:2016-06.png[2016-06.pdf,link=2016-06.pdf] image:2016-07.png[2016-07.pdf,link=2016-07.pdf] image:2016-08.png[2016-08.pdf,link=2016-08.pdf] image:2016-09.png[2016-09.pdf,link=2016-09.pdf] image:2016-10.png[2016-10.pdf,link=2016-10.pdf] image:2016-11.png[2016-11.pdf,link=2016-11.pdf] image:2016-12.png[2016-12.pdf,link=2016-12.pdf] 
+
+Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018]

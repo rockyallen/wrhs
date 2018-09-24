@@ -1,0 +1,12 @@
+= Events
+Auto generated
+2018-09-24
+:jbake-type: page
+:jbake-status: published
+
+
+
+
+image:2019CalendarCompRules.png[2019CalendarCompRules.pdf,link=2019CalendarCompRules.pdf] image:GeneralEmailReAGM.png[GeneralEmailReAGM.pdf,link=GeneralEmailReAGM.pdf] image:SUMMERSHOWSCHEDULECOMPLETE2018.png[SUMMERSHOWSCHEDULECOMPLETE2018.pdf,link=SUMMERSHOWSCHEDULECOMPLETE2018.pdf] image:WRHS_AGM_Agenda_5_Sep_2018.png[WRHS_AGM_Agenda_5_Sep_2018.pdf,link=WRHS_AGM_Agenda_5_Sep_2018.pdf] 
+
+

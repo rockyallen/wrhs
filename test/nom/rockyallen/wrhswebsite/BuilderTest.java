@@ -58,7 +58,7 @@ public class BuilderTest {
         System.out.println("sanitise");
         String s = "Weed & feed, 3 litre (bottle)";
         String expResult = "Weed_and_feed_3_litre_bottle";
-        String result = Builder.sanitise(s);
+        String result = TradingPostPageBuilder.sanitise(s);
         assertEquals(expResult, result);
     }
 

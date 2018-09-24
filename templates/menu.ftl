@@ -13,8 +13,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/news.html">News</a></li>
-            <li><a href="/events.html">Events</a></li>
+            <li><a href="/events/index.html">Events</a></li>
             <li><a href="/tradingpost/categories.html">Trading post</a></li>
             <li><a href="/join.html">Join</a></li>
             <li><a href="/tips.html">Growing tips</a></li>
