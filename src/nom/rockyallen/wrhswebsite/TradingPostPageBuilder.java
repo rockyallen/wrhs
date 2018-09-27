@@ -49,7 +49,7 @@ public class TradingPostPageBuilder extends Task {
             synthesiseMessages(products);
 
             makeWeb(products);
-            
+
         } catch (Exception ex) {
             throw new BuildException(ex);
         }
@@ -186,30 +186,30 @@ public class TradingPostPageBuilder extends Task {
      */
     private void addImages(Map<String, Product> items) throws FileNotFoundException {
         //System.out.println("Adding images...");
-        File root = new File(TRADINGPOST_IMAGES);
+        File imagesRoot = new File(root, TRADINGPOST_IMAGES);
         Collection<String> notFound = new TreeSet<String>();
 
         for (Map.Entry<String, Product> e : items.entrySet()) {
 
             String cat = e.getValue().category;
-            String name = sanitise(e.getValue().name);
-
-            //System.out.println(cat + ":" + name);
+            String name1 = sanitiseMyVersion(e.getValue().name);
+            String name2 = sanitiseDavesVersion(e.getValue().name);
 
             String id = e.getKey();
 
-            File categoryFolder = new File(root, cat);
+            File categoryFolder = new File(imagesRoot, cat);
             if (!categoryFolder.exists()) {
                 notFound.add(cat);
             } else {
                 File[] testFiles = new File[]{
-                    new File(categoryFolder, name + ".png"),
-                    new File(categoryFolder, name + ".jpg"),
                     new File(categoryFolder, id + ".png"),
-                    new File(categoryFolder, id + ".jpg"), //    new File(categoryFolder, "CATEGORY.png"),
-                //    new File(categoryFolder, "CATEGORY.jpg"),
-                };
+                    new File(categoryFolder, id + ".jpg"),
+                    new File(categoryFolder, name1 + ".png"),
+                    new File(categoryFolder, name1 + ".jpg"),
+                    new File(categoryFolder, name2 + ".png"),
+                    new File(categoryFolder, name2 + ".jpg"),};
 
+                // take the first match
                 for (File f : testFiles) {
                     if (f.exists()) {
                         {
@@ -218,6 +218,10 @@ public class TradingPostPageBuilder extends Task {
                         }
                     }
                 }
+                if (e.getValue().image == null) {
+                    System.out.println("WARNING: No image for "+ cat + ": [" + name1 + "," + name2 + "]");
+                }
+
             }
         }
         if (!notFound.isEmpty()) {
@@ -294,7 +298,7 @@ public class TradingPostPageBuilder extends Task {
                 }
             }
 
-            String filename = sanitise(category);
+            String filename = sanitiseMyVersion(category);
             sb.line("* link:" + filename + ".html[" + category + "] (" + itemsInCategory.size() + " products)");
 
             makeCategoryPage(category, itemsInCategory, filename);
@@ -364,11 +368,15 @@ public class TradingPostPageBuilder extends Task {
      * @param s
      * @return
      */
-    public static String sanitise(String s) {
+    public static String sanitiseMyVersion(String s) {
         return s.replaceAll("&", " and ")
                 .replaceAll("[^a-zA-Z0-9]+", "_")
                 .replaceAll("_*$", "")
                 .replaceAll("^_*", "");
+    }
+
+    public static String sanitiseDavesVersion(String s) {
+        return s.replaceAll("[^a-zA-Z0-9&]+", "");
     }
 
     /**

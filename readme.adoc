@@ -53,7 +53,7 @@ Type:
 To use JBake, open a command window and change directory to wrhs/.
 Type:
 +
-ant preview
+  ant preview
 +
 Or if you have python installed, open a command window and change directory to wrhs/output/.
 Type:

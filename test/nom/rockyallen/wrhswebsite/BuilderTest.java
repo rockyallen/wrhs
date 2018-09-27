@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package nom.rockyallen.wrhswebsite;
 
 import org.junit.After;
@@ -54,11 +49,20 @@ public class BuilderTest {
 //    }
 
     @Test
-    public void testSanitise() {
+    public void sanitiseMyVersion() {
         System.out.println("sanitise");
         String s = "Weed & feed, 3 litre (bottle)";
         String expResult = "Weed_and_feed_3_litre_bottle";
-        String result = TradingPostPageBuilder.sanitise(s);
+        String result = TradingPostPageBuilder.sanitiseMyVersion(s);
+        assertEquals(expResult, result);
+    }
+
+    @Test
+    public void sanitiseDavesVersion() {
+        System.out.println("sanitise");
+        String s = "Weed & feed, 3 litre (bottle)";
+        String expResult = "Weed&feed3litrebottle";
+        String result = TradingPostPageBuilder.sanitiseDavesVersion(s);
         assertEquals(expResult, result);
     }
 
