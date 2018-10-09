@@ -43,12 +43,15 @@
     </target>
 
     <target name="-post-jar" depends="init" description="Build web site">
+        
+        <copy file="dist/wrhs.jar" todir="lib" overwrite="true"/>
+        
         <echo>Creating website files ...</echo>
         
         <property name="otheryears" value="Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018]"/>
         
         <taskdef 
-            classpath="dist/wrhs.jar;lib/javacsv.jar" 
+            classpath="lib/wrhs.jar;lib/javacsv.jar" 
             classname="nom.rockyallen.wrhswebsite.TradingPostPageBuilder" 
             name="TradingPostPageBuilder"/>
         
@@ -117,7 +120,7 @@
     </target>
 
     <target name="deploy" description="Deploy to server">
-        <echo>Not yet implemented, but easienst through JBake. Get details for Dave. Do NOT embed usernames or passwords in this file.</echo>
+        <echo>Not yet implemented, but easiest through JBake. Get details for Dave. Do NOT embed usernames or passwords in this file.</echo>
     </target>
 
     <target name="preview" depends="init" description="Preview website">

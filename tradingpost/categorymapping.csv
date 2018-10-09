@@ -10,7 +10,7 @@ BULBS FLOWER,"Bulbs-flower"
 BULBS FLOWER BULK,
 BULK STOCK,
 CANES,Canes
-CELL TRAYS,Cell trays
+CELL TRAYS,Seed trays and cell trays
 CLEANERS,Cleaners
 COMPOSTS BULK,
 COMPOSTS ETC,"Composts-large bags"
@@ -68,13 +68,13 @@ ROLL MATERIALS,Roll Materials
 ROPE,Rope Twine And Wire
 ROPE TWINE & WIRE,Rope Twine And Wire
 SEED MATS,Seed mats
-SEED TRAYS,Seed trays
+SEED TRAYS,Seed trays and cell trays
 SEEDS FLOWER,Seeds-flower
 SEEDS GREEN MANURE,Seeds-green manure
 SEEDS HERB,Seeds-herb
 SEEDS VEGETABLE,Seeds-vegetable
 SEEDS WRHS LAWN,Seeds-grass
-SEEDS WRHS VEG,Seeds-vegetable
+SEEDS WRHS VEG,Seeds-vegetable-WRHS
 SHALLOTS,"Shallots onions and garlic"
 SHALLOTS BULK,
 SHED PRODUCTS,Shed products
@@ -101,7 +101,7 @@ WREATH MAKING,Wreaths and flower arranging
 WRHS PLANTS,
 10023,
 10042,
-10047,
+10047,Other
 10052,
 10062,
 10073,
@@ -129,3 +129,4 @@ WRHS PLANTS,
 10843,
 10848,
 11002,
+
