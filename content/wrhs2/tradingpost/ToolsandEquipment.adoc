@@ -1,0 +1,337 @@
+:jbake-type: page
+:jbake-status: published
+= Tools and Equipment
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="2 Litre Pump Action Spear & Jackson">2 Ltr Pump Action Sprayer</abbr>]**
+
+
+
+&#163;4.05
+
+Stock: 0
+a|image::/wrhs2/pics/tools/SpearJacksonSprayer2Litre.png[height=40]
+| **pass:[<abbr title="5 litre Pump Action Sprayer blue Spear & Jackson">5 litre Spray Pump blue S&J</abbr>]**
+
+
+
+&#163;8.10
+
+Stock: 6
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="5 litre Pump Action Sprayer red Spear & Jackson">5 litre Spray Pump red S&J</abbr>]**
+
+
+
+&#163;8.10
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="5 litre Spray Pump twin pack Spear & Jackson 5LPAPSTWIN">5 litre Spray Pump x2</abbr>]**
+
+
+
+&#163;16.15
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="5 litre Pump Action Spear & Jackson">5Ltr Pump Action Sprayer</abbr>]**
+
+
+
+&#163;7.50
+
+Stock: 0
+a|image::/wrhs2/pics/tools/SpearJacksonSprayer5Litre.png[height=40]
+| **pass:[<abbr title="Long ash handled Spear & Jackson 4859PC">Block Paving Cleaner S&J</abbr>]**
+
+
+
+&#163;6.25
+
+Stock: 7
+a|image::/wrhs2/pics/tools/SpearJackson4859PC_ head.png[height=40]
+| **pass:[<abbr title="Border Fork Spear & Jackson 4994N/09">Border Fork S&J</abbr>]**
+
+
+
+&#163;17.10
+
+Stock: 5
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Stainless Steel Border Spade Fiskars 140mm wide blade">Border Spade Fiskars SS</abbr>]**
+
+
+
+&#163;26.50
+
+Stock: 3
+a|image::/wrhs2/pics/tools/FiskarsBorderSpade.png[height=40]
+| **pass:[<abbr title="Border Spade Spear & Jackson 4194NB">Border Spade Spear & Jackson</abbr>]**
+
+
+
+&#163;17.15
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bulb Planter Stainless Steel Spear & Jackson 3060EL">Bulb Planter Stainless S&J</abbr>]**
+
+
+
+&#163;6.00
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bypass Pruner">Bypass Pruner</abbr>]**
+
+
+
+&#163;6.65
+
+Stock: 0
+a|image::/wrhs2/pics/tools/BypassSecateurs.png[height=40]
+| **pass:[<abbr title="Digging Fork - second hand">Digging Fork - second hand</abbr>]**
+
+
+
+&#163;5.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Digging Fork Spear & Jackson 4990NB/09">Digging Fork S&J</abbr>]**
+
+
+
+&#163;17.05
+
+Stock: 2
+a|image::/wrhs2/pics/tools/SpearJackson4990NB.png[height=40]
+| **pass:[<abbr title="Stainless Steel Digging Spade Fiskars 180mm wide blade">Digging Spade SS Fiskars</abbr>]**
+
+
+
+&#163;26.50
+
+Stock: 5
+a|image::/wrhs2/pics/tools/FiskarsDiggingSpade.png[height=40]
+| **pass:[<abbr title="Dutch Hoe Spear & Jackson 4135NB/09">Dutch Hoe S&J</abbr>]**
+
+
+
+&#163;15.00
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Folding Knife Felco">Folding Knife</abbr>]**
+
+
+
+&#163;13.70
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Folding Lock Back Knife">Folding Lock Back Knife</abbr>]**
+
+
+
+&#163;5.60
+
+Stock: 0
+a|image::/wrhs2/pics/tools/FiskarsFoldingKnife.png[height=40]
+| **pass:[<abbr title="Hand Fork Rolcut">Hand Fork Rolcut</abbr>]**
+
+
+
+&#163;3.15
+
+Stock: 0
+a|image::/wrhs2/pics/tools/WilkinsonHandFork.png[height=40]
+| **pass:[<abbr title="Hand Fork Rolson 82611 Stainless Steel Ash Handle">Hand Fork Rolson Stainless</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/tools/Rolson82611.png[height=40]
+| **pass:[<abbr title="Spear & Jackson Elements 4053NB">Hand Fork S&J</abbr>]**
+
+
+
+&#163;4.25
+
+Stock: 4
+a|image::/wrhs2/pics/tools/SpearJacksonFork4053NB.png[height=40]
+| **pass:[<abbr title="Hand Fork Wilkinson Sword Transplanter Classic 223233">Hand Fork Wilkinson Sword</abbr>]**
+
+
+
+&#163;7.40
+
+Stock: 1
+a|image::/wrhs2/pics/tools/WilkinsonHandFork223233.png[height=40]
+| **pass:[<abbr title="Power Grip Hand Trowel Fiskars 137101">Hand Trowel Fiskars</abbr>]**
+
+
+
+&#163;8.45
+
+Stock: 0
+a|image::/wrhs2/pics/tools/FIS137101.png[height=40]
+| **pass:[<abbr title="Hand Trowel Spear & Jackson 4058NB/09">Hand Trowel S&J</abbr>]**
+
+
+
+&#163;4.25
+
+Stock: 7
+a|image::/wrhs2/pics/tools/SpearJackson4058NB.png[height=40]
+| **pass:[<abbr title="Hoe 3 edge Kent and Stowe">Hoe 3 edge</abbr>]**
+
+
+
+&#163;24.85
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawn Shear Long Handle Fiskars 113320">Lawn Shear Long Handle</abbr>]**
+
+
+
+&#163;37.80
+
+Stock: 1
+a|image::/wrhs2/pics/tools/ShearFSK113320.png[height=40]
+| **pass:[<abbr title="Leaf Rake Medium Fiskars">Leaf Rake Fiskars</abbr>]**
+
+
+
+&#163;14.30
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Pruning Saw Barnel Z130">Pruning Saw Barnel</abbr>]**
+
+
+
+&#163;25.00
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Pruning Saw Fiskars Softgrip">Pruning Saw Fiskars</abbr>]**
+
+
+
+&#163;15.85
+
+Stock: 0
+a|image::/wrhs2/pics/tools/Fiskars123760.png[height=40]
+| **pass:[<abbr title="Pruning Saw Spear & Jackson 4938PS">Pruning Saw S&J</abbr>]**
+
+
+
+&#163;10.40
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Rolson Leaf Collectors Pair">Rolson Leaf Collectors Pair</abbr>]**
+
+
+
+&#163;3.45
+
+Stock: 2
+a|image::/wrhs2/pics/tools/Rolson82506_LeafCollectors.png[height=40]
+| **pass:[<abbr title="S&J Actv 22 inch Bypass Lopper 4822RSA">S&J 22 inch Bypass Lopper</abbr>]**
+
+
+
+&#163;19.65
+
+Stock: 1
+a|image::/wrhs2/pics/tools/SpearJackson4822RSA.png[height=40]
+| **pass:[<abbr title="S&J Hedge Shear 8110Rs*">S&J Hedge Shear</abbr>]**
+
+
+
+&#163;19.65
+
+Stock: 2
+a|image::/wrhs2/pics/tools/SpearJackson8110RS.png[height=40]
+| **pass:[<abbr title="Secateurs Bypass unbranded">Secateurs Bypass unbranded</abbr>]**
+
+
+
+&#163;7.70
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Single Handed Shear Fiskars Servo 13680">Shear Fiskars</abbr>]**
+
+
+
+&#163;22.70
+
+Stock: 1
+a|image::/wrhs2/pics/tools/Shear113680.png[height=40]
+| **pass:[<abbr title="Soil Rake Spear & Jackson">Soil Rake S & J</abbr>]**
+
+
+
+&#163;15.10
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Spear & Jackson Extendible Sprayer Wand">Sprayer Wand</abbr>]**
+
+
+
+&#163;3.00
+
+Stock: 5
+a|image::/wrhs2/pics/tools/SpearJacksonSprayerWand.png[height=40]
+| **pass:[<abbr title="Stainless Steel Swoe Fiskars 911470W">Swoe SS Fiskars</abbr>]**
+
+
+
+&#163;25.50
+
+Stock: 0
+a|image::/wrhs2/pics/tools/Fiskars911470W.png[height=40]
+| **pass:[<abbr title="Transplanting Trowel Spear & Jackson 4054NB/09">Transplanting Trowel S&J</abbr>]**
+
+
+
+&#163;4.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Wilkinson Sword 1111171W Telescopic Tree Cutter">W/S Telescopic Tree Cutter</abbr>]**
+
+
+
+&#163;30.80
+
+Stock: 0
+a|image::/wrhs2/pics/tools/WilkinsonTreeCutter1111171W.png[height=40]
+| **pass:[<abbr title="Widger & Dibber">Widger & Dibber</abbr>]**
+
+
+
+&#163;2.85
+
+Stock: 5
+a|image::/wrhs2/pics/tools/WidgerDibber.png[height=40]
+|
+|
+|
+|
+|
+|
+|
+|
+|===

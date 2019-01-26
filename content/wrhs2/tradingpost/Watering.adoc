@@ -1,0 +1,343 @@
+:jbake-type: page
+:jbake-status: published
+= Watering
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Fan Spray Hozelock 2660">Fan Spray Hozelock 2660</abbr>]**
+
+
+
+&#163;5.80
+
+Stock: 0
+a|image::/wrhs2/pics/water/Hozelock2660.png[height=40]
+| **pass:[<abbr title="Hose connector no shutoff">Hose connector</abbr>]**
+
+
+
+&#163;2.30
+
+Stock: 1
+a|image::/wrhs2/pics/water/QC26-no-waterstop.png[height=40]
+| **pass:[<abbr title="Hose Connector Male-Male Green, ½ in">Hose Connector Male-Male Green</abbr>]**
+
+
+
+&#163;1.00
+
+Stock: 10
+a|image::/wrhs2/pics/water/DoubleMaleGreen.png[height=40]
+| **pass:[<abbr title="Hose connector with shutoff">Hose connector with shutoff</abbr>]**
+
+
+
+&#163;2.70
+
+Stock: 2
+a|image::/wrhs2/pics/water/QC26-waterstop.png[height=40]
+| **pass:[<abbr title="Garden Hose Repair Connector Draper 89383 1/2-inch Female-Female Green">Hose Repair Connector Green</abbr>]**
+
+
+
+&#163;1.00
+
+Stock: 8
+a|image::/wrhs2/pics/water/HoseConnectorFemaleFemaleGreen.png[height=40]
+| **pass:[<abbr title="Hozelock 2100 Hose Repair Connector 12.5-15Mm">Hozelock 2100 Hose Repair</abbr>]**
+
+
+
+&#163;2.50
+
+Stock: 10
+a|image::/wrhs2/pics/water/Hozelock2100.png[height=40]
+| **pass:[<abbr title="Hozelock 50m Ultraflex green">Hozelock 50m green</abbr>]**
+
+
+
+&#163;30.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hozelock 7830 30m Ultimate Hose">Hozelock 7830 30m Ultimate</abbr>]**
+
+
+
+&#163;25.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hozelock 7850 50m Ultimate Hose">Hozelock 7850 50m Ultimate</abbr>]**
+
+
+
+&#163;30.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hozelock Double Male Connector">Hozelock Double Male Connect</abbr>]**
+
+
+
+&#163;2.50
+
+Stock: 3
+a|image::/wrhs2/pics/water/Hozelock2291.png[height=40]
+| **pass:[<abbr title="Hozelock 2674P0000-5PK Jet Spray Gun">Hozelock Jet Spray Gun</abbr>]**
+
+
+
+&#163;7.50
+
+Stock: 4
+a|image::/wrhs2/pics/water/Hozelock2674P0000.png[height=40]
+| **pass:[<abbr title="Hozelock Plus 2055 Waterstop Connector">Hozelock Waterstop Connector</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 0
+a|image::/wrhs2/pics/water/Hozelock2055.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre blue">Indoor can 0.7 litre blue</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre cerise">Indoor can 0.7 litre cerise</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre green">Indoor can 0.7 litre green</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 10
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre kin">Indoor can 0.7 litre kin</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre lilac">Indoor can 0.7 litre lilac</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre pink">Indoor can 0.7 litre pink</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre red">Indoor can 0.7 litre red</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre sage">Indoor can 0.7 litre sage</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Indoor can 0.7 litre yellow">Indoor can 0.7 litre yellow</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Rain Diverter Kit">Rain Diverter Kit</abbr>]**
+
+
+
+&#163;4.75
+
+Stock: 4
+a|image::/wrhs2/pics/water/W1870-rain-diverter-pack.png[height=40]
+| **pass:[<abbr title="Repacement Water Butt Tap">Repacement Water Butt Tap</abbr>]**
+
+
+
+&#163;2.80
+
+Stock: 6
+a|image::/wrhs2/pics/water/W1872-butt-tap.png[height=40]
+| **pass:[<abbr title="Hose rose spray Finas F12/10">Rose spray</abbr>]**
+
+
+
+&#163;1.65
+
+Stock: 0
+a|image::/wrhs2/pics/water/HawsF12-10.png[height=40]
+| **pass:[<abbr title="Rubber Washer 1/2 inch">Rubber Washer 1/2 inch</abbr>]**
+
+
+
+&#163;0.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Soaker Hose">Soaker Hose</abbr>]**
+
+
+
+&#163;1.05
+
+Stock: 35
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Agralan Soaker Hose Accessory Pack">Soaker Hose Accessories</abbr>]**
+
+
+
+&#163;1.50
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hozelock 2175 Threaded Tap Connector 26.5mm">Threaded Tap Connector - Hozelock</abbr>]**
+
+
+
+&#163;3.45
+
+Stock: 0
+a|image::/wrhs2/pics/water/Hozelock2175.png[height=40]
+| **pass:[<abbr title="Water Butt Linking Kit W1871">Water Butt Linking Kit W1871</abbr>]**
+
+
+
+&#163;5.00
+
+Stock: 9
+a|image::/wrhs2/pics/water/W1871-linking-kit.png[height=40]
+| **pass:[<abbr title="Watering Can 10 litre green Greenwash">Watering Can 10 ltr green GREENWASH</abbr>]**
+
+
+
+&#163;5.45
+
+Stock: 18
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Haws 2.25 litre blue">Watering Can 2.25 litre blue</abbr>]**
+
+
+
+&#163;8.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Haws 2.25 litre red">Watering Can 2.25 litre red</abbr>]**
+
+
+
+&#163;8.25
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Haws 2.25 litre blue box of 4">Watering Can 2.25 ltr blu x4</abbr>]**
+
+
+
+&#163;33.85
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Haws 2.25 litre red box of 4">Watering Can 2.25 ltr red x4</abbr>]**
+
+
+
+&#163;33.85
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can 5 litre Ward black">Watering Can 5 litre black</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can 5 litre green Greenwash">Watering Can 5 ltr green</abbr>]**
+
+
+
+&#163;3.60
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Rose No.11">Watering Can Rose No.11</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Rose No.14">Watering Can Rose No.14</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Rose No.2">Watering Can Rose No.2</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Rose No.3">Watering Can Rose No.3</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Watering Can Rose No.7">Watering Can Rose No.7</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|
+|
+|===

@@ -1,0 +1,99 @@
+:jbake-type: page
+:jbake-status: published
+= Wire, Rope and Twine
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Garden Wire 1.6mm Galvanised 20m">Garden Wire 20m</abbr>]**
+
+
+
+&#163;2.85
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Oasis Mossing Twine Natural 75m">Oasis Mossing Twine Natural 75m</abbr>]**
+
+
+
+&#163;0.95
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Adjustable Black Plastic Cut to length">Plastic Chain Lock per metre</abbr>]**
+
+
+
+&#163;0.32
+
+Stock: 14
+a|image::/wrhs2/pics/labels/ChainLock.png[height=40]
+| **pass:[<abbr title="Rope polypropylene 6mm blue">Rope polypropylene 6mm</abbr>]**
+
+
+
+&#163;0.11
+
+Stock: 0
+a|image::/wrhs2/pics/wire/RopeBlue.png[height=40]
+| **pass:[<abbr title="Skipping-off Rope">Skipping-off Rope</abbr>]**
+
+
+
+&#163;1.95
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sky Hook climbing plant support">Sky Hook</abbr>]**
+
+
+
+&#163;7.70
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Parcel String 2mm Polypropylene 70m">String 2mm Polypropylene 70m</abbr>]**
+
+
+
+&#163;1.00
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Apollo Tie Wire 1mm zinc coated 25m">Tie Wire Zinc Coated 25m</abbr>]**
+
+
+
+&#163;2.25
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Twine Jute 3 ply green 500g W0556">Twine Jute green 500g W0556</abbr>]**
+
+
+
+&#163;2.80
+
+Stock: 12
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Twine Jute natural 500g W0557**
+
+
+
+&#163;2.80
+
+Stock: 15
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Horticultural Twine polypropylene green 140m">Twine Polyprop green 140m</abbr>]**
+
+
+
+&#163;1.00
+
+Stock: 5
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|===

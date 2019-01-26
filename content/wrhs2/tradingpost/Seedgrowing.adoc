@@ -1,0 +1,273 @@
+:jbake-type: page
+:jbake-status: published
+= Seed growing
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="10 Cell Tray">10 Cell Tray</abbr>]**
+
+
+
+&#163;0.21
+
+Stock: 57
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="12 cells black lightweight plastic Fits half-size propagator lid">12 Cell Tray</abbr>]**
+
+
+
+&#163;0.16
+
+Stock: 513
+a|image::/wrhs2/pics/tray/12pack.png[height=40]
+| **pass:[<abbr title="20 cells black lightweight plastic Fits half-size propagator lid">20 Cell Tray</abbr>]**
+
+
+
+&#163;0.16
+
+Stock: 364
+a|image::/wrhs2/pics/tray/20pack.png[height=40]
+| **pass:[<abbr title="6 cells black lightweight plastic Fits half-size propagator lid">6 Cell Tray</abbr>]**
+
+
+
+&#163;0.15
+
+Stock: 484
+a|image::/wrhs2/pics/tray/6pack.png[height=40]
+| **pass:[<abbr title="Baby Leaf seed mat">Baby Leaf seed mat</abbr>]**
+
+
+
+&#163;1.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Black lightweight plastic">Black Dividable Seed Tray</abbr>]**
+
+
+
+&#163;0.22
+
+Stock: 204
+a|image::/wrhs2/pics/tray/divtray.png[height=40]
+| **pass:[<abbr title="Fibre Pots 8cm Round pack of 12">Fibre Pots 8cm Round x12</abbr>]**
+
+
+
+&#163;1.85
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 1 litre 13.cm 5in Thermoplastic">Flower Pot 1 litre hard black</abbr>]**
+
+
+
+&#163;0.10
+
+Stock: 1148
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 1.5 litre 15cm 6in Thermoplastic">Flower Pot 1.5 litre hard black</abbr>]**
+
+
+
+&#163;0.15
+
+Stock: 440
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="10.5cm soft red pot">Flower Pot 10.5cm soft red</abbr>]**
+
+
+
+&#163;0.05
+
+Stock: 1111
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 2 litre">Flower Pot 2 litre hard black</abbr>]**
+
+
+
+&#163;0.20
+
+Stock: 607
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 3 litre">Flower Pot 3 litre hard black</abbr>]**
+
+
+
+&#163;0.25
+
+Stock: 386
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 5 litre">Flower Pot 5 litre hard black</abbr>]**
+
+
+
+&#163;0.45
+
+Stock: 205
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Red Hard 6 inch">Flower Pot 6 inch hard red</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Red Hard 7 inch">Flower Pot 7 inch hard red</abbr>]**
+
+
+
+&#163;1.05
+
+Stock: 38
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 7cm square">Flower Pot 7cm square soft black</abbr>]**
+
+
+
+&#163;0.05
+
+Stock: 1942
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Red Hard 9cm">Flower Pot 9cm hard red</abbr>]**
+
+
+
+&#163;0.15
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Red 9cm">Flower Pot 9cm soft red</abbr>]**
+
+
+
+&#163;0.05
+
+Stock: 2755
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Black 9cm sqare">Flower Pot 9cm square soft black</abbr>]**
+
+
+
+&#163;0.06
+
+Stock: 1022
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Black Hard plastic Full size with drainage">Full Seed Tray Black</abbr>]**
+
+
+
+&#163;0.43
+
+Stock: 544
+a|image::/wrhs2/pics/tray/fulltray.png[height=40]
+| **pass:[<abbr title="Clear Hard plastic Fits full size seed tray">Full Seed Tray Clear Lid</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 231
+a|image::/wrhs2/pics/tray/fulllid.png[height=40]
+| **pass:[<abbr title="Black Hard plastic Full size No drainage">Gravel Tray Black</abbr>]**
+
+
+
+&#163;0.45
+
+Stock: 243
+a|image::/wrhs2/pics/tray/fulltray.png[height=40]
+| **pass:[<abbr title="Black Hard plastic Half size with drainage">Half Seed Tray Black</abbr>]**
+
+
+
+&#163;0.13
+
+Stock: 978
+a|image::/wrhs2/pics/tray/halftray.png[height=40]
+| **pass:[<abbr title="Clear Hard plastic Fits half size seed tray">Half Seed Tray Clear Lid</abbr>]**
+
+
+
+&#163;0.55
+
+Stock: 259
+a|image::/wrhs2/pics/tray/halflid.png[height=40]
+| **pass:[<abbr title="Lettuce Cut & Come seed mat">Lettuce Cut & Come seed mat</abbr>]**
+
+
+
+&#163;1.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flower Pot Saucer Red Hard 3 inch">Saucer 8cm hard red</abbr>]**
+
+
+
+&#163;0.06
+
+Stock: 232
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitapots 6cm round xpack of 24">Vitapots 6cm round x24</abbr>]**
+
+
+
+&#163;2.55
+
+Stock: 28
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitapots 6cm square pack of 20">Vitapots 6cm square x20</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 29
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitapots 7cm pack of 16">Vitapots 7cm x16</abbr>]**
+
+
+
+&#163;2.60
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Vitapot Fibre Pots pack of 36">Vitax Fibre Pots x36</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Grow Tubes x20">Vitax Grow Tubes x20</abbr>]**
+
+
+
+&#163;3.50
+
+Stock: 5
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Ring Culture Grow Pots pack of 6">Vitax Ring Culture Pots x6</abbr>]**
+
+
+
+&#163;5.75
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|
+|
+|
+|
+|===

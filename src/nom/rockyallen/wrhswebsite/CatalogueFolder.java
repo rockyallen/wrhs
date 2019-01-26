@@ -48,7 +48,7 @@ public class CatalogueFolder extends Task {
             }
             AsciidocBuilder sb = new AsciidocBuilder();
 
-            sb.header(title);
+            sb.header(title, AsciidocBuilder.commonAttributes());
 
             sb.line("");
             sb.line("");
@@ -112,5 +112,4 @@ public class CatalogueFolder extends Task {
     public void setAfter(String footer) {
         this.after = footer;
     }
-
 }

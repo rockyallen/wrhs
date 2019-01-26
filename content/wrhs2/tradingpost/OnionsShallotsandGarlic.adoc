@@ -1,0 +1,145 @@
+:jbake-type: page
+:jbake-status: published
+= Onions, Shallots and Garlic
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **Elephant Garlic LARGE**
+
+
+
+&#163;1.20
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/ElephantGarlic.png[height=40]
+| **Elephant Garlic MEDIUM**
+
+
+
+&#163;0.60
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/ElephantGarlic.png[height=40]
+| **Elephant Garlic SMALL**
+
+
+
+&#163;0.35
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/ElephantGarlic.png[height=40]
+| **pass:[<abbr title="Garlic Carcassonne Wight x1">Garlic Carcassonne Wight x1</abbr>]**
+
+
+
+&#163;1.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Garlic Picardy Wight">Garlic Picardy Wight 1 bulb</abbr>]**
+
+
+
+&#163;0.40
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Large bulb">Garlic Solent Wight LARGE</abbr>]**
+
+
+
+&#163;1.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Garlic Solent Wight MEDIUM**
+
+
+
+&#163;1.10
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/GarlicSolentWight.png[height=40]
+| **pass:[<abbr title="Garlic Vallelado Wight">Garlic Vallelado Wight 1 bulb</abbr>]**
+
+
+
+&#163;0.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Onion Red Karmen 200g net**
+
+
+
+&#163;0.40
+
+Stock: 2
+a|image::/wrhs2/pics/bulbv/OnionRedKarmen.png[height=40]
+| **Onion Red Winter 200g net**
+
+
+
+&#163;0.80
+
+Stock: 17
+a|image::/wrhs2/pics/bulbv/OnionRedWinter.png[height=40]
+| **pass:[<abbr title="A heavy yielding, very hardy, over wintering Japanese variety. Semi-globe shaped bulbs with golden skin over white flesh. Plant the sets between 15th September and 15th October. In mild weather, plant as late as possible to avoid bolting. In cold weather, plant earlier. Harvest in June.">Onion Senshyu 200g net</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 23
+a|image::/wrhs2/pics/bulbv/OnionSenshyu.png[height=40]
+| **Onion Shakespeare 200g net**
+
+
+
+&#163;0.80
+
+Stock: 19
+a|image::/wrhs2/pics/bulbv/OnionShakespeare.png[height=40]
+| **Onion Sturon Globe 200g net**
+
+
+
+&#163;0.80
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/OnionSturon.png[height=40]
+| **Onion Stuttgart 200g net**
+
+
+
+&#163;0.80
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/OnionStuttgart.png[height=40]
+| **pass:[<abbr title="Shallot Red Sun 500g Arguably the best red shallot. Produces good yields of crisp, white fleshed bulbs. Excellent flavour when cooked but also ideal for pickling, or raw in salads.">Shallot Red Sun 500g</abbr>]**
+
+
+
+&#163;2.00
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/ShallotRedSun.png[height=40]
+| **pass:[<abbr title="500g RHS award, very high yielding, golden brown skinned bulb with higher bolting resistance than many others. Stores well throughout winter.">Shallots Golden Gourmet 500g</abbr>]**
+
+
+
+&#163;2.00
+
+Stock: 0
+a|image::/wrhs2/pics/bulbv/ShallotGoldenGourmet.png[height=40]
+|
+|
+|
+|
+|
+|
+|
+|
+|===

@@ -1,0 +1,40 @@
+:jbake-type: page
+:jbake-status: published
+:stylesheet: css/plain.css
+= THE TRADING POST
+Auto generated
+2019-01-26
+
+Open to Members only: Wednesday 2.00pm - 4.00pm, Saturday 9.30am - 12.30pm
+
+* link:BirdFood.html[Bird Food] (5 products)
+* link:Booksloan.html[Books, loan] (17 products)
+* link:Booksreference.html[Books, reference] (12 products)
+* link:CleanersandSterilisers.html[Cleaners and Sterilisers] (4 products)
+* link:Compostandgrowingmedia.html[Compost and growing media] (41 products)
+* link:Feedandfertiliser.html[Feed and fertiliser] (82 products)
+* link:FlowerArranging.html[Flower Arranging] (22 products)
+* link:FloweringBulbs.html[Flowering Bulbs] (45 products)
+* link:FlowerpotsBowlsandPlanters.html[Flowerpots, Bowls and Planters] (17 products)
+* link:GreenhouseSupplies.html[Greenhouse Supplies] (9 products)
+* link:Hardware.html[Hardware] (67 products)
+* link:LabelsandTies.html[Labels and Ties] (15 products)
+* link:OnionsShallotsandGarlic.html[Onions, Shallots and Garlic] (16 products)
+* link:PesticidesandRepellants.html[Pesticides and Repellants] (55 products)
+* link:PlugPlants.html[Plug Plants] (10 products)
+* link:Potatoes.html[Potatoes] (18 products)
+* link:Rollmaterials.html[Roll materials] (18 products)
+* link:Seedgrowing.html[Seed growing] (32 products)
+* link:SeedGreenManureSeeds.html[Seed, Green ManureSeeds] (13 products)
+* link:Seedflower.html[Seed, flower] (125 products)
+* link:Seedgrass.html[Seed, grass] (4 products)
+* link:Seedsweetpea.html[Seed, sweet pea] (44 products)
+* link:Seedvegetable.html[Seed, vegetable] (294 products)
+* link:Seedsherb.html[Seeds, herb] (44 products)
+* link:Sundries.html[Sundries] (43 products)
+* link:ToolsandEquipment.html[Tools and Equipment] (40 products)
+* link:Treatments.html[Treatments] (6 products)
+* link:Watering.html[Watering] (41 products)
+* link:WeedKillers.html[Weed Killers] (23 products)
+* link:WireRopeandTwine.html[Wire, Rope and Twine] (11 products)
+\nAll information on this website is offered in good faith but is used entirely at the user's own risk.

@@ -1,0 +1,49 @@
+:jbake-type: page
+:jbake-status: published
+= Seed, grass
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Lawn Seed Basic Hard Wearing 100g">Lawn Seed Hard Wearing 100g</abbr>]**
+
+
+
+&#163;0.60
+
+Stock: 22
+a|image::/wrhs2/pics/lawn/LawnSeed.png[height=40]
+| **pass:[<abbr title="Lawn Seed Hard Wearing 10kg">Lawn Seed Hard Wearing 10kg</abbr>]**
+
+
+
+&#163;57.25
+
+Stock: 1
+a|image::/wrhs2/pics/lawn/LawnSeed.png[height=40]
+| **pass:[<abbr title="Lawn Seed Basic Hard Wearing 1Kg">Lawn Seed Hard Wearing 1kg</abbr>]**
+
+
+
+&#163;5.75
+
+Stock: 0
+a|image::/wrhs2/pics/lawn/LawnSeed.png[height=40]
+| **pass:[<abbr title="Lawn Seed Basic Hard Wearing 500g">Lawn Seed Hard Wearing 500g</abbr>]**
+
+
+
+&#163;2.90
+
+Stock: 15
+a|image::/wrhs2/pics/lawn/LawnSeed.png[height=40]
+|
+|
+|
+|
+|
+|
+|
+|
+|===

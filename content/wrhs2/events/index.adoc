@@ -1,0 +1,13 @@
+:jbake-type: page
+:jbake-status: published
+:stylesheet: css/plain.css
+= Events
+Auto generated
+2019-01-26
+
+
+
+
+image:2019CalendarCompRules.png[2019CalendarCompRules.pdf,link=2019CalendarCompRules.pdf] image:GeneralEmailReAGM.png[GeneralEmailReAGM.pdf,link=GeneralEmailReAGM.pdf] image:SUMMERSHOWSCHEDULECOMPLETE2018.png[SUMMERSHOWSCHEDULECOMPLETE2018.pdf,link=SUMMERSHOWSCHEDULECOMPLETE2018.pdf] image:WRHS_AGM_Agenda_5_Sep_2018.png[WRHS_AGM_Agenda_5_Sep_2018.pdf,link=WRHS_AGM_Agenda_5_Sep_2018.pdf] 
+
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="wrhs" default="default" basedir=".">
+<project name="wrhs" default="generate" basedir=".">
     <description>Builds, tests, and runs the project wrhs.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
@@ -26,7 +26,7 @@
     <target name="-post-clean">
         <echo>Removing last output...</echo>
         <delete includeemptydirs="true">
-            <fileset dir="content/tradingpost/" includes="**/*"/>
+            <fileset dir="content/wrhs2/tradingpost/" includes="**/*"/>
         </delete>    
         <delete includeemptydirs="true">
             <fileset dir="output" includes="**/*"/>
@@ -39,16 +39,16 @@
         <mkdir dir="output"/>
     </target>
 
-    <target name="all" depends="clean,jar" description="Build and deploy">
+    <target name="all" depends="clean,jar,generate" description="Build and deploy">
     </target>
 
-    <target name="-post-jar" depends="init" description="Build web site">
+    <target name="generate" depends="init" description="Build web site">
         
         <copy file="dist/wrhs.jar" todir="lib" overwrite="true"/>
         
         <echo>Creating website files ...</echo>
         
-        <property name="otheryears" value="Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018]"/>
+        <property name="otheryears" value="Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]"/>
         
         <taskdef 
             classpath="lib/wrhs.jar;lib/javacsv.jar" 
@@ -60,57 +60,71 @@
             classname="nom.rockyallen.wrhswebsite.CatalogueFolder" 
             name="CatalogueFolder"/>
         
-        <TradingPostPageBuilder root="${basedir}"/>
+        <!-- The first group should not need to be played wth. The others change at will. -->
+        <TradingPostPageBuilder 
+            STOCK_FILE = "tradingpost/WRHSTradingPost_Self_StockImportTemplate.csv"
+            PRODUCT_FILE = "tradingpost/WRHSTradingPost_Self_ProductUpdateTemplate.csv"
+            OUTPUT_FOLDER = "content/wrhs2/tradingpost/"
+            CATEGORY_MAPPING = "tradingpost/extrainfo.csv"
+            PLACEHOLDER = "/wrhs2/pics/placeholder.png"
+            IMAGESDIR = "/wrhs2/"
+            
+            TITLE = "THE TRADING POST"
+            SUBTITLE = "Open to Members only: Wednesday 2.00pm - 4.00pm, Saturday 9.30am - 12.30pm"
+            FOOTER = "\nAll information on this website is offered in good faith but is used entirely at the user's own risk."
+        />
         
         <CatalogueFolder 
-            indir="${basedir}/assets/events" 
-            outfile="${basedir}/content/events/index.adoc" 
+            indir="${basedir}/assets/wrhs2/events" 
+            outfile="${basedir}/content/wrhs2/events/index.adoc" 
             title="Events"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2020" 
-            outfile="${basedir}/content/newsletters/2020/index.adoc" 
+            indir="${basedir}/assets/wrhs2/newsletters/2021" 
+            outfile="${basedir}/content/wrhs2/newsletters/2021/index.adoc" 
+            title="2021"
+            before=""
+            after="${otheryears}"/>
+        
+        <CatalogueFolder 
+            indir="${basedir}/assets/wrhs2/newsletters/2020" 
+            outfile="${basedir}/content/wrhs2/newsletters/2020/index.adoc" 
             title="2020"
             before=""
             after="${otheryears}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2020" 
-            outfile="${basedir}/content/newsletters/2020/index.adoc" 
-            title="2020"
-            before=""
-            after="${otheryears}"/>
-        
-        <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2019" 
-            outfile="${basedir}/content/newsletters/2019/index.adoc" 
+            indir="${basedir}/assets/wrhs2/newsletters/2019" 
+            outfile="${basedir}/content/wrhs2/newsletters/2019/index.adoc" 
             title="2019"
             before=""
             after="${otheryears}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2018" 
-            outfile="${basedir}/content/newsletters/2018/index.adoc" 
+            indir="${basedir}/assets/wrhs2/newsletters/2018" 
+            outfile="${basedir}/content/wrhs2/newsletters/2018/index.adoc" 
             title="2018"
             before=""
             after="${otheryears}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2017" 
-            outfile="${basedir}/content/newsletters/2017/index.adoc" 
+            indir="${basedir}/assets/wrhs2/newsletters/2017" 
+            outfile="${basedir}/content/wrhs2/newsletters/2017/index.adoc" 
             title="2017"
             before=""
             after="${otheryears}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/newsletters/2016" 
-            outfile="${basedir}/content/newsletters/2016/index.adoc" 
+            indir="${basedir}/assets/wrhs2/newsletters/2016" 
+            outfile="${basedir}/content/wrhs2/newsletters/2016/index.adoc" 
             title="2016"
             before=""
             after="${otheryears}"/>
         
         <echo>Building website ...</echo>
         <antcall target="-bake"/>
+        
+        <move file="output/index.html" tofile="output/index2.html"/>
     </target>
 
     <target name="-bake" depends="init" description="Build web site">
@@ -129,6 +143,10 @@
         </java>
     </target>
 
-    <target name="build" depends="jar"/>
+    <target name="build" depends="jar" description="jar only"/>
+
+    <target name="run" depends="generate" description="Create and preview web site">
+        <antcall target="preview"/>
+    </target>
 
 </project>

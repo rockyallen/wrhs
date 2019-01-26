@@ -1,0 +1,195 @@
+:jbake-type: page
+:jbake-status: published
+= Weed Killers
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Bayer Superstrength Weedkiller single sachet">Bayer Weedkiller x1 sachet</abbr>]**
+
+
+
+&#163;1.40
+
+Stock: 2
+a|image::/wrhs2/pics/weed/BayerSuperStrengthWeedkiller1.png[height=40]
+| **pass:[<abbr title="Bayer Superstrength Weedkiller 12 sachets">Bayer Weedkiller x12 sachet</abbr>]**
+
+
+
+&#163;12.75
+
+Stock: 20
+a|image::/wrhs2/pics/weed/BayerSuperStrengthWeedkiller6.png[height=40]
+| **pass:[<abbr title="Bio Fungus Fighter Plus RTU 800ml">Bio Fungus Fighter RTU 800ml</abbr>]**
+
+
+
+&#163;6.55
+
+Stock: 9
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Deep Root Ultra treestump killer 400ml">Deep Root stump killer 400ml</abbr>]**
+
+
+
+&#163;8.50
+
+Stock: 10
+a|image::/wrhs2/pics/weed/Deep_Root_Ultra.png[height=40]
+| **Doff 3 in 1 Weed & Feed 1.75**
+
+
+
+&#163;3.45
+
+Stock: 6
+a|image::/wrhs2/pics/lawn/Doff3in1Lawn1p75kg.png[height=40]
+| **Doff 3 in 1 Weed & Feed 900g**
+
+
+
+&#163;2.95
+
+Stock: 16
+a|image::/wrhs2/pics/lawn/Doff3in1Lawn900g.png[height=40]
+| **pass:[<abbr title="Neudorff Weedkiller 510ml">Neudorff Weedkiller 510ml</abbr>]**
+
+
+
+&#163;7.20
+
+Stock: 5
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Pathclear Weedkiller single 18ml tube">Pathclear Weedkiller tube x1</abbr>]**
+
+
+
+&#163;1.05
+
+Stock: 3
+a|image::/wrhs2/pics/weed/Scotts-pathclear-18tub.png[height=40]
+| **pass:[<abbr title="Roundup GC 140ml">Roundup GC 140ml</abbr>]**
+
+
+
+&#163;10.10
+
+Stock: 0
+a|image::/wrhs2/pics/weed/roundup.png[height=40]
+| **pass:[<abbr title="Roundup Gel 150ml">Roundup Gel 150ml</abbr>]**
+
+
+
+&#163;10.10
+
+Stock: 1
+a|image::/wrhs2/pics/weed/roundup-gel.png[height=40]
+| **pass:[<abbr title="Roundup RTU 1 litre">Roundup RTU 1 litre</abbr>]**
+
+
+
+&#163;5.35
+
+Stock: 22
+a|image::/wrhs2/pics/weed/roundup-spray.png[height=40]
+| **pass:[<abbr title="Vitax SBK Brushwood Killer 1 litre">SBK Brushwood Killer 1 litre</abbr>]**
+
+
+
+&#163;13.25
+
+Stock: 0
+a|image::/wrhs2/pics/weed/Vitax-SBK-Brushwood.png[height=40]
+| **pass:[<abbr title="SBK Brushwood Killer 500ml">SBK Brushwood Killer 500ml</abbr>]**
+
+
+
+&#163;9.70
+
+Stock: 0
+a|image::/wrhs2/pics/weed/Vitax-SBK-Brushwood.png[height=40]
+| **pass:[<abbr title="Verdone Extra Lawn Weedkiller 500ml">Verdone Lawn Weedkill 500ml</abbr>]**
+
+
+
+&#163;7.95
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Verdone Extra Lawn Weedkiller RTU 800ml">Verdone Weedkiller RTU 800ml</abbr>]**
+
+
+
+&#163;5.60
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Lawn Clear">Vitax Lawn Clear</abbr>]**
+
+
+
+&#163;4.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Lawn Clear RTU 750ml">Vitax Lawn Clear RTU 750ml</abbr>]**
+
+
+
+&#163;3.75
+
+Stock: 18
+a|image::/wrhs2/pics/lawn/VitexLawnClearRTU.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree 6 100ml sachets">Vitax Weedfree 6 sachets</abbr>]**
+
+
+
+&#163;6.40
+
+Stock: 32
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-sachets.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree Concentrate 1 litre">Vitax Weedfree Conc 1 litre</abbr>]**
+
+
+
+&#163;13.70
+
+Stock: 1
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-Path-Patio-Conc.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree RTU 750ml">Vitax Weedfree RTU 750ml</abbr>]**
+
+
+
+&#163;4.30
+
+Stock: 22
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-rtu.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree Sachets 1 Sachet">Vitax Weedfree Sachets x1</abbr>]**
+
+
+
+&#163;1.40
+
+Stock: 7
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-sachets.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree Path & Patio Weedkiller 1 litre">Weedfree Path & Patio 1 ltr</abbr>]**
+
+
+
+&#163;13.70
+
+Stock: 4
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-Path-Patio-Conc.png[height=40]
+| **pass:[<abbr title="Vitax Weedfree Path & Patio Weedkiller RTU 750ml">Weedfree Path&Patio RTU</abbr>]**
+
+
+
+&#163;4.25
+
+Stock: 5
+a|image::/wrhs2/pics/weed/Vitax-Weedfree-Path-Patio-rtu.png[height=40]
+|
+|
+|===

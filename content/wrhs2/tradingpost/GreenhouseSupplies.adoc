@@ -1,0 +1,87 @@
+:jbake-type: page
+:jbake-status: published
+= Greenhouse Supplies
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **Bayer Coolglass GH Shading**
+
+
+
+&#163;4.80
+
+Stock: 0
+a|image::/wrhs2/pics/ghouse/BayerCoolglass.png[height=40]
+| **pass:[<abbr title="Clips And Corners Bubble Insulation">Clips And Corners Bubble Ins</abbr>]**
+
+
+
+&#163;0.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **GH Shade Net Clips x10 pack**
+
+
+
+&#163;4.10
+
+Stock: 0
+a|image::/wrhs2/pics/ghouse/GreenhouseShadingClips.png[height=40]
+| **GH Shade Net Extenders**
+
+
+
+&#163;2.10
+
+Stock: 0
+a|image::/wrhs2/pics/ghouse/Tabs.png[height=40]
+| **Greenhouse Fumigator 3.5g**
+
+
+
+&#163;4.90
+
+Stock: 14
+a|image::/wrhs2/pics/ghouse/GreenhouseFumigator.png[height=40]
+| **pass:[<abbr title="Greenhouse Shade Net Clips pack of 8">Greenhouse Shade Net Clips pack of 8</abbr>]**
+
+
+
+&#163;2.80
+
+Stock: 28
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Summer Cloud GH Shade 500ml**
+
+
+
+&#163;6.90
+
+Stock: 4
+a|image::/wrhs2/pics/ghouse/VitaxGreenhouseShading.png[height=40]
+| **pass:[<abbr title="W Clips pack of 25 Worth W0922">W Clips pack of 25</abbr>]**
+
+
+
+&#163;1.70
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Z Clips pack of 25 Worth W0923">Z Clips pack of 25</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|
+|
+|===

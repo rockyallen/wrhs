@@ -1,0 +1,547 @@
+:jbake-type: page
+:jbake-status: published
+= Hardware
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="100 Litre with lid, tap & plinth Strata GN339">100 litre water butt set GN339</abbr>]**
+
+
+
+&#163;22.00
+
+Stock: 6
+a|image::/wrhs2/pics/water/ward-100-litre-water-butt-kit.png[height=40]
+| **pass:[<abbr title="210 Litre with lid & tap  no stand Strata G325">210 litre water butt - no stand</abbr>]**
+
+
+
+&#163;28.00
+
+Stock: 0
+a|image::/wrhs2/pics/water/WardGN325.png[height=40]
+| **pass:[<abbr title="210 Litre with lid, tap & plinth Strata GN335">210 litre Water butt set GN335</abbr>]**
+
+
+
+&#163;36.00
+
+Stock: 3
+a|image::/wrhs2/pics/water/WardGN335.png[height=40]
+| **pass:[<abbr title="The A to Z of Art (used)">A to Z of Art</abbr>]**
+
+
+
+&#163;5.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Astronomy Beginner Guide">Astronomy Beginner Guide</abbr>]**
+
+
+
+&#163;1.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bean & Pea Bag W0494">Bean & Pea Bag W0494</abbr>]**
+
+
+
+&#163;6.35
+
+Stock: 9
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bucket black 14 litre">Bucket black 14 litre</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 13
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bulb Storage Basket green 26cm dia pack of 3">Bulb Storage Basket 26cm x3</abbr>]**
+
+
+
+&#163;2.75
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bulb Storage Basket green 23x21cm pack of 3">Bulb Store Bskt 23x21cm x3</abbr>]**
+
+
+
+&#163;2.75
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Canes 3ft x10**
+
+
+
+&#163;0.50
+
+Stock: 42
+a|image::/wrhs2/pics/hard/canes.png[height=40]
+| **Canes 4ft x10**
+
+
+
+&#163;2.20
+
+Stock: 25
+a|image::/wrhs2/pics/hard/canes.png[height=40]
+| **Canes 5ft x10**
+
+
+
+&#163;2.25
+
+Stock: 34
+a|image::/wrhs2/pics/hard/canes.png[height=40]
+| **Canes 6ft x10**
+
+
+
+&#163;2.65
+
+Stock: 34
+a|image::/wrhs2/pics/hard/canes.png[height=40]
+| **Canes 8ft x10**
+
+
+
+&#163;4.45
+
+Stock: 27
+a|image::/wrhs2/pics/hard/canes.png[height=40]
+| **pass:[<abbr title="Chieftain Garden Tray 64.5x49.5x12cm (LxWxH) black">Chieftain Garden Tray black</abbr>]**
+
+
+
+&#163;5.55
+
+Stock: 6
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Colander Trug green G184">Colander Trug green G184</abbr>]**
+
+
+
+&#163;5.85
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Compost Bin 210 litre">Compost Bin 210 litre</abbr>]**
+
+
+
+&#163;17.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Compost Bin small">Compost Bin small</abbr>]**
+
+
+
+&#163;15.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Compost Scoop round bottom green W2020">Compost Scoop round bottom W2020</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 29
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flexi Tub Green 26ltr">Flexi Tub Green 26ltr</abbr>]**
+
+
+
+&#163;6.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Flexible Tub 26 litre blue">Flexible Tub 26 litre blue</abbr>]**
+
+
+
+&#163;6.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="By Alastair Fothergill &  Vanessa Berlowitz Hardback 2011">Frozen Planet By Alastair Fo</abbr>]**
+
+
+
+&#163;2.50
+
+Stock: 0
+a|image::/wrhs2/pics/book/FrozenPlanet.png[height=40]
+| **pass:[<abbr title="Garden Tray green G16G 62.5x20x6.5cm (LxWxH)">Garden Tray green G16G</abbr>]**
+
+
+
+&#163;4.45
+
+Stock: 21
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Growbag Tray standard 100x40x5cm (LxWxD) black G182B">Growbag Tray standard black G182B</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Handy Tray green G34GR">Handy Tray green G34GR</abbr>]**
+
+
+
+&#163;3.10
+
+Stock: 31
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Humitity Dial Hygrometer">Humidity Dial Hygrometer</abbr>]**
+
+
+
+&#163;2.10
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Incinerator & Lid">Incinerator & Lid</abbr>]**
+
+
+
+&#163;17.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Plant Links W06202 30x76cm x3">Plant Links W06202 30x76cm x3</abbr>]**
+
+
+
+&#163;6.00
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Plant Ring 15cm">Plant Ring 15cm</abbr>]**
+
+
+
+&#163;2.55
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Plant Ring 23cm W0635">Plant Ring 23cm W0635</abbr>]**
+
+
+
+&#163;3.00
+
+Stock: 25
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Potato bag W0490">Potato bag W0490</abbr>]**
+
+
+
+&#163;4.20
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Potting Sieve fine mesh green">Potting Sieve fine mesh</abbr>]**
+
+
+
+&#163;3.75
+
+Stock: 12
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Propagator Tray 37.5x23x12.5cm (LxWxD) black">Propagator Tray large black</abbr>]**
+
+
+
+&#163;2.40
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Rectangular Kneeling Mat 40cm x 20cm">Rectangular Kneeling Mat</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="RHS Gradeners Encyclopedia (used)">RHS Gradeners Encyclopedia</abbr>]**
+
+
+
+&#163;4.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Royal Geographical Society Illustrated: A Unique Record of Exploration & Photos">Royal Geographical Society I</abbr>]**
+
+
+
+&#163;2.50
+
+Stock: 0
+a|image::/wrhs2/pics/book/RGS.png[height=40]
+| **pass:[<abbr title="Scoop flat base green">Scoop flat base green</abbr>]**
+
+
+
+&#163;1.55
+
+Stock: 9
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Worth Soil pH Meter">Soil pH Meter</abbr>]**
+
+
+
+&#163;4.85
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Soil Thermometer">Soil Thermometer</abbr>]**
+
+
+
+&#163;7.50
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Spray Bottle 600ml Contico Clear/Green">Spray Bottle 600ml</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Storage Tray green W2050">Storage Tray green W2050</abbr>]**
+
+
+
+&#163;2.95
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tidy Tray 61x55x20cm (LxWxH) green">Tidy Tray 61x55x20cm (LxWxH)</abbr>]**
+
+
+
+&#163;6.85
+
+Stock: 13
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tidy Tray Shelf green">Tidy Tray Shelf green</abbr>]**
+
+
+
+&#163;2.05
+
+Stock: 6
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tree & Shrub Expert Book">Tree & Shrub Expert Book</abbr>]**
+
+
+
+&#163;3.00
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Trimmer Line Blue 1.5mm x 30m">Trimmer Line Blue 1.5mm</abbr>]**
+
+
+
+&#163;3.15
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Trimmer Line Green 2.0 mm x 30m">Trimmer Line Green 2mm</abbr>]**
+
+
+
+&#163;3.45
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Black">Tub Flexible 14 litre Black</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Blue">Tub Flexible 14 litre Blue</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Green">Tub Flexible 14 litre Green</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Pink">Tub Flexible 14 litre Pink</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Pistachio">Tub Flexible 14 litre Pistachio</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Purple">Tub Flexible 14 litre Purple</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Red">Tub Flexible 14 litre Red</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Sky Blue">Tub Flexible 14 litre Sky Blue</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Yellow">Tub Flexible 14 litre Yellow</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 14 litre Orange">TubTrug 14 litre Orange</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Blue">Tubtrug shallow 5 litre Blue</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Green">Tubtrug shallow 5 litre Green</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Orange">Tubtrug shallow 5 litre Orange</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Pink">Tubtrug shallow 5 litre Pink</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Pistachio">Tubtrug shallow 5 litre Pistachio</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Purple">Tubtrug shallow 5 litre Purple</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Tub Flexible 5 litre Red">Tubtrug shallow 5 litre Red</abbr>]**
+
+
+
+&#163;3.35
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Black Wheelbarrow 90ltr Assembled">Wheelbarrow Assembled</abbr>]**
+
+
+
+&#163;35.00
+
+Stock: 1
+a|image::/wrhs2/pics/tools/Wheelbarrow.png[height=40]
+| **pass:[<abbr title="Wheelbarrow booster">Wheelbarrow booster</abbr>]**
+
+
+
+&#163;4.50
+
+Stock: 2
+a|image::/wrhs2/pics/tools/booster.png[height=40]
+| **pass:[<abbr title="Black Wheelbarrow 90ltr Flat Packed">Wheelbarrow Flat Packed</abbr>]**
+
+
+
+&#163;30.00
+
+Stock: 1
+a|image::/wrhs2/pics/tools/Wheelbarrow.png[height=40]
+| **pass:[<abbr title="Windowsill Tray small">Windowsill Tray small</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|===

@@ -25,6 +25,8 @@ TODO: Remove JBake.
 It is a large dependency and I am only using a tiny bit of it which can be replaced by AsciidoctorJ. 
 I think.
 
+TODO: (maybe) Generate the trading post pages using H2 and Ant. After all, it is just mucking about with CSV files.
+
 == Installation
 
 * Install Java (sudo apt-get install java)
@@ -97,58 +99,36 @@ To add a new category, see <<addcategory>>.
 [[addproduct]]
 == Add a product in an existing category
 
-Generally new products in existing categories just appear, but you probably want to give it a specific thumbnail.
+To make a new product appear on the trading post pages:
 
+If you want, add a thumbnail:
 The file type can be either .png or .jpg.
+The file size should be less than 20K (5K is better).
+Add the photo to "assets/pics/" in a sensible subfolder.
 
-The file size should be less than 20K (5K is better)
+Add a line to imagemapping.csv:
 
-The file name part can either be *exactly* as the same as the "ProductID" field in the product file, or it can be based on the the "Product Name".
-To determine the required file name from the product name:
+. Open the file using Excel, Calc, or a text editor.
 
-. Replace all non 0-9 or a-z or A-Z with "_".
+. Set "productid" to the product id exactly as it is in the EPOS file.
 
-. Collapse any sequences of "\_" with a single "_".
+. For your own sanity, copy the description column as well.
 
-. Remove leading and trailing "_".
+. Set "page" to the group you want it to appear on. 
+Create a new page by typing a different title, or reuse one of the others.
 
-For example if the Product ID is 10056, you can name the file 10056.png or 10056.jpg.
-Alternatively, if the Product Name is "Weed & feed, 3 litre (bottle)", the file name can be "Weed_and_feed_3_litre_bottle.png" or "Weed_and_feed_3_litre_bottle.jpg".
+. Set "show" to 1.
 
-Add the photo to 
+. If you have a thumbnail for it (or want to re-use one) add it the the image column.
 
-wrhs/assets/images/{category}/
-
-where {category} is the name of the category *exactly* as it appears in the product file.
 
 Preview the website to make sure that the image appears correctly (<<sect-preview>>).
 
-[[addcategory]]
-== Add a category, or re-organise categories
+== Show or hide an item in the trading post
 
-The program uses a category file to organise the categories in the product file into web pages.
-All categories listed in the product file must have a matching entry in the category file, or they will cause an error when you build the website.
+To be visible, the item must be listed in the imagemapping.csv file (<<addproduct>>).
 
-* Build the website.
-
-* Note the new category from the error message.
-
-* Open wrhs/tradingpost/categorymapping.csv using Excel, Calc, or a text editor.
-
-* Add a row for the new category (__Please keep this file in alphabetic order__).
-
-* Type the page that you want to show the product into the "mapping" column next to the category name.
-You can use a new name which will result in a new page, or you can use an existing name so that the item is added to that page.
-If you don't want a category to appear at all, leave its mapping blank.
-
-* Add a new folder 
-+
-  wrhs/assets/images/{category}/
-+
-where {category} is the name of the category exactly as it appears in the "Category" column.
-
-* Create an image CATEGORY.png in the folder.
-This will be used as a thumbnail for that page (one day).
+You can switch it off temporarily without deleting it by setting column "show" to 0.
 
 [[addmeeting]]
 == Add a meeting document

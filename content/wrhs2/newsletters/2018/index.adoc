@@ -1,0 +1,13 @@
+:jbake-type: page
+:jbake-status: published
+:stylesheet: css/plain.css
+= 2018
+Auto generated
+2019-01-26
+
+
+
+
+image:2018-01.png[2018-01.pdf,link=2018-01.pdf] image:2018-02.png[2018-02.pdf,link=2018-02.pdf] image:2018-03.png[2018-03.pdf,link=2018-03.pdf] image:2018-04.png[2018-04.pdf,link=2018-04.pdf] image:2018-05.png[2018-05.pdf,link=2018-05.pdf] image:2018-06.png[2018-06.pdf,link=2018-06.pdf] image:2018-07.png[2018-07.pdf,link=2018-07.pdf] image:2018-08.png[2018-08.pdf,link=2018-08.pdf] image:2018-09.png[2018-09.pdf,link=2018-09.pdf] image:2018-10.png[2018-10.pdf,link=2018-10.pdf] 
+
+Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]

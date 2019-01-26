@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.SortedSet;
@@ -22,15 +21,20 @@ import org.apache.tools.ant.Task;
  */
 public class TradingPostPageBuilder extends Task {
 
-    private static final String TRADINGPOST_IMAGES = "assets/images/";
-    private static final String STOCK_FILE = "tradingpost/WRHSTradingPost_Self_StockImportTemplate.csv";
-    private static final String PRODUCT_FILE = "tradingpost/WRHSTradingPost_Self_ProductUpdateTemplate.csv";
-    private static final String OUTPUT_FOLDER = "content/tradingpost/";
-    private static final String CATEGORY_MAPPING = "tradingpost/categorymapping.csv";
+    private String STOCK_FILE = null;
+    private String PRODUCT_FILE = null;
+    private String OUTPUT_FOLDER = null;
+    private String CATEGORY_MAPPING = null;
 
-    private File root = null;
+    private String TITLE = null;
+    private String SUBTITLE = null;
+    private String FOOTER = null;
+    private String PLACEHOLDER = null;
 
-    private int cols = 8;
+    //private File root = null;
+
+    private int items_page_cols = 8;
+    private String IMAGESDIR = "";
 
     @Override
     public void execute() throws BuildException {
@@ -38,13 +42,11 @@ public class TradingPostPageBuilder extends Task {
         try {
             Map<String, Product> products = new TreeMap<String, Product>();
 
-            readProducts(products);
+            readProducts(products, new File(PRODUCT_FILE));
 
-            updateStockLevels(products);
+            updateStockLevels(products, new File(STOCK_FILE));
 
-            addImages(products);
-
-            mergeAndRenameCategories(products);
+            readCategoriesAndImages(products, new File(CATEGORY_MAPPING));
 
             synthesiseMessages(products);
 
@@ -68,12 +70,13 @@ public class TradingPostPageBuilder extends Task {
      * Suppliers,Delete Product
      *
      * @param items
+     * @param f a product file in CSV format
      * @throws IOException
      * @throws NumberFormatException
      */
-    private void readProducts(Map<String, Product> items) throws IOException, NumberFormatException {
+    private void readProducts(Map<String, Product> items, File f) throws IOException, NumberFormatException {
         //System.out.println("Reading products...");
-        CsvReader r1 = open(new File(root, PRODUCT_FILE));
+        CsvReader r1 = open(f);
         int r1_idColumn = r1.getIndex("ProductID");
         int r1_nameColumn = r1.getIndex("Product Name");
         int r1_categoryColumn = r1.getIndex("Category Name");
@@ -97,7 +100,7 @@ public class TradingPostPageBuilder extends Task {
      *
      * After this, the first call to readRecord will return the first data row.
      *
-     * @param fname
+     * @param f
      * @return
      */
     private CsvReader open(File f) throws FileNotFoundException, IOException {
@@ -118,14 +121,15 @@ public class TradingPostPageBuilder extends Task {
      * Order,Alerts,Cost Price, Supplier Name,Unit of Sale,Volume of Sale,Unit
      * of Purchase,Volume of Purchase
      *
-     * @param items
+     * @param products
+     * @param f a stock file in CSV format
+     *
      * @throws IOException
      * @throws NumberFormatException
      * @throws DataException if
      */
-    private void updateStockLevels(Map<String, Product> items) throws IOException, NumberFormatException, Exception {
-        //System.out.println("Updating stock levels...");
-        CsvReader reader = open(new File(root, STOCK_FILE));
+    private void updateStockLevels(Map<String, Product> products, File f) throws IOException, NumberFormatException, Exception {
+        CsvReader reader = open(f);
         int idColumn = reader.getIndex("ProductID");
         int stockColumn = reader.getIndex("Current Stock");
         int orderColumn = reader.getIndex("On Order");
@@ -141,7 +145,7 @@ public class TradingPostPageBuilder extends Task {
         }
         while (reader.readRecord()) {
             String id = reader.get(idColumn);
-            Product r = items.get(id);
+            Product r = products.get(id);
             if (r != null) {
                 String order = reader.get(orderColumn).trim();
                 if ("".equals(order)) {
@@ -158,155 +162,99 @@ public class TradingPostPageBuilder extends Task {
                 throw new DataException("Product listed in stock level file but not product file " + r);
             }
 
-            items.put(id, r);
+            products.put(id, r);
         }
     }
 
     /**
-     * Find a suitable image for each product. All images are in
-     * tradingpost/images. Looks for these files and uses the first one it
-     * finds:
-     *
-     * {product id}.png
-     *
-     * {product id}.jpg
-     *
-     * {product name}.png
-     *
-     * {product name}.jpg
-     *
-     * {category}.png
-     *
-     * {category}.jpg
-     *
-     * default (placeholder.png).
-     *
-     * @param items
-     * @throws FileNotFoundException
-     */
-    private void addImages(Map<String, Product> items) throws FileNotFoundException {
-        //System.out.println("Adding images...");
-        File imagesRoot = new File(root, TRADINGPOST_IMAGES);
-        Collection<String> notFound = new TreeSet<String>();
-
-        for (Map.Entry<String, Product> e : items.entrySet()) {
-
-            String cat = e.getValue().category;
-            String name1 = sanitiseMyVersion(e.getValue().name);
-            String name2 = sanitiseDavesVersion(e.getValue().name);
-
-            String id = e.getKey();
-
-            File categoryFolder = new File(imagesRoot, cat);
-            if (!categoryFolder.exists()) {
-                notFound.add(cat);
-            } else {
-                File[] testFiles = new File[]{
-                    new File(categoryFolder, id + ".png"),
-                    new File(categoryFolder, id + ".jpg"),
-                    new File(categoryFolder, name1 + ".png"),
-                    new File(categoryFolder, name1 + ".jpg"),
-                    new File(categoryFolder, name2 + ".png"),
-                    new File(categoryFolder, name2 + ".jpg"),};
-
-                // take the first match
-                for (File f : testFiles) {
-                    if (f.exists()) {
-                        {
-                            e.getValue().image = f;
-                            break;
-                        }
-                    }
-                }
-                if (e.getValue().image == null) {
-                    System.out.println("WARNING: No image for "+ cat + ": [" + name1 + "," + name2 + "]");
-                }
-
-            }
-        }
-        if (!notFound.isEmpty()) {
-            for (String s : notFound) {
-                System.out.println("WARNING: No image folder found for category " + s);
-            }
-        }
-    }
-
-    /**
+     * Post conditions: (1) product.category is set to the page on which it
+     * appears. (2) product.image is set.
      *
      * @param products
+     * @param f an image mapping file in CSV format
+     *
      * @throws FileNotFoundException
      * @throws IOException
      * @throws DataException
      */
-    private void mergeAndRenameCategories(Map<String, Product> products) throws FileNotFoundException, IOException, DataException {
-        //System.out.println("Mapping categories...");
-        CsvReader reader = open(new File(root, CATEGORY_MAPPING));
-        Map<String, String> mapping = new HashMap<String, String>();
+    private void readCategoriesAndImages(Map<String, Product> products, File f) throws FileNotFoundException, IOException, DataException {
+        CsvReader reader = open(f);
+        int productidcol = reader.getIndex("productid");
+        int mappingcol = reader.getIndex("page");
+        int imagecol = reader.getIndex("image");
+        int showcol = reader.getIndex("show");
+        int infocol = reader.getIndex("info");
 
-        int categorycol = reader.getIndex("category");
-        int mappingcol = reader.getIndex("mapping");
-
-        if (categorycol < 0) {
-            throw new DataException("column category not found in mapping file");
+        if (productidcol < 0) {
+            throw new DataException("column productid not found in mapping file");
         }
         if (mappingcol < 0) {
-            throw new DataException("column mapping not found in mapping file");
+            throw new DataException("column page not found in mapping file");
+        }
+        if (imagecol < 0) {
+            throw new DataException("column image not found in mapping file");
+        }
+        if (showcol < 0) {
+            throw new DataException("column show not found in mapping file");
+        }
+        if (infocol < 0) {
+            throw new DataException("column info not found in mapping file");
         }
 
         while (reader.readRecord()) {
-            mapping.put(reader.get(categorycol), reader.get(mappingcol));
-        }
-//        for (Map.Entry<String, String> e : mapping.entrySet()) {
-//            System.out.println("Mapping " + e.getKey() + "=" + e.getValue());
-//        }
-
-        for (Product p : products.values()) {
-            String to = mapping.get(p.category);
-            if (to == null) {
-                throw new DataException("Category not listed in " + CATEGORY_MAPPING + ": [" + p.category + "]");
+            String[] values = reader.getValues();
+            String id = values[productidcol];
+            if (!id.trim().isEmpty()) {
+                Product p = products.get(id);
+                if (p == null) {
+                    String err = "Warning: Product listed in mapping file, but not found in product file: [" + id + "]";
+                    System.out.println(err);
+                    //throw new DataException(err);
+                } else {
+                    p.category = values[mappingcol];
+                    p.image = values[imagecol];
+                    p.show = Integer.parseInt(values[showcol]) > 0;
+                    p.info = values[infocol];
+                }
             }
-            p.category = to;
         }
     }
 
     /**
+     * Generating source files for product web pages.
      *
      * @param products
      */
     private void makeWeb(Map<String, Product> products) throws IOException {
-        //System.out.println("Generating source files for web pages...");
 
-        // list the unique categories
+        // list the unique categories in alphabetic order
         SortedSet<String> categories = new TreeSet<String>();
         for (Product p : products.values()) {
-            if (!p.category.equals("")) {
+            if (!p.category.isEmpty() && p.show) {
                 categories.add(p.category);
             }
         }
-        //System.out.println("Visible categories: " + Arrays.toString(categories.toArray()));
 
         AsciidocBuilder sb = new AsciidocBuilder();
-        sb.header("THE TRADING POST");
-        sb.line("Open to Members only: Wednesday 2.00pm - 4.00pm Saturday 9.30am - 12.30pm\n");
-
+        sb.header(TITLE, AsciidocBuilder.commonAttributes());
+        sb.line(SUBTITLE);
+        sb.line("");
         for (String category : categories) {
-            //      if (new File(TRADINGPOST_IMAGES, category).exists()) {
             Set<Product> itemsInCategory = new TreeSet<Product>();
             for (Product p : products.values()) {
                 if (p.category.equals(category)) {
                     itemsInCategory.add(p);
                 }
             }
-
-            String filename = sanitiseMyVersion(category);
+            // Mangle s into a string suitable for a Windows or Unix filename.
+            String filename = category.replaceAll("[^a-zA-Z0-9&]+", "");
             sb.line("* link:" + filename + ".html[" + category + "] (" + itemsInCategory.size() + " products)");
 
             makeCategoryPage(category, itemsInCategory, filename);
         }
-        sb.line(
-                "\nAll information on this website is offered in good faith but is used entirely at the user's own risk. ");
+        sb.line(FOOTER);
 
-        sb.write(new File(new File(root, OUTPUT_FOLDER), "categories.adoc"));
+        sb.write(new File(new File(OUTPUT_FOLDER), "categories.adoc"));
     }
 
     /**
@@ -321,62 +269,41 @@ public class TradingPostPageBuilder extends Task {
         //System.out.println("Creating page for " + category);
         AsciidocBuilder sb = new AsciidocBuilder();
         sb.header(category);
-        sb.line("[options=noheader,cols=" + cols + ",grid=1,frame=1]");
+        sb.line("[options=noheader,cols=" + items_page_cols + ",grid=1,frame=1]");
         sb.line("|===");
         //sb.line("| |Name |Description |price |Stock (at {localdate}) |Notes");
         for (Product p : inCategory) {
 
             String image = null;
-            if (p.image == null) {
-                image = "/images/placeholder.png[]";
+            if (p.image == null || p.image.isEmpty()) {
+                image = PLACEHOLDER;
             } else {
-                image = "/images/" + url(p.image.getParentFile().getName() + "/" + p.image.getName()) + "[]";
+                image = IMAGESDIR+p.image;
             }
 
-            sb.line("|**" + p.name + "**");
+            /*
+            
+             +<div class="tooltip">+Hover over me<span class="tooltiptext">Tooltip text</span></div> 
+             */
+            if (p.info == null | p.info.isEmpty()) {
+                sb.line("| **" + p.name + "**");
+            } else {
+                sb.line("| **pass:[<abbr title=\"" + p.info + "\">" + p.name + "</abbr>]**");
+            }
             sb.line("\n" + p.description);
             sb.line("\n" + String.format("&#163;%4.2f", p.price));
-            //sb.line("\nstock=" + p.stock);
             sb.line("\n" + p.message);
-            sb.line("a|image::" + image);
+            sb.line("a|image::" + image + "[height=40]");
         }
 
         // table must have complete rows otherwise the last row is truncated
-        int emptyCells = cols - (inCategory.size()) * 2 % cols;
+        int emptyCells = items_page_cols - (inCategory.size()) * 2 % items_page_cols;
         while (emptyCells-- > 0) {
             sb.line("|");
         }
 
         sb.line("|===");
-        sb.write(new File(new File(root, OUTPUT_FOLDER), filename + ".adoc"));
-    }
-
-    /**
-     * Mangle s into a string suitable for a Windows or Unix filename.
-     *
-     * . Replace & with " and ".
-     *
-     * . Replace all non 0-9 or a-z or A-Z with "_".
-     *
-     * . Replace any sequences of "_" with a single "_".
-     *
-     * . Remove leading and trailing "_".
-     *
-     * For example sanitise("Weed & feed, 3 litre (bottle)") =
-     * "Weed_and_feed_3_litre_bottle".
-     *
-     * @param s
-     * @return
-     */
-    public static String sanitiseMyVersion(String s) {
-        return s.replaceAll("&", " and ")
-                .replaceAll("[^a-zA-Z0-9]+", "_")
-                .replaceAll("_*$", "")
-                .replaceAll("^_*", "");
-    }
-
-    public static String sanitiseDavesVersion(String s) {
-        return s.replaceAll("[^a-zA-Z0-9&]+", "");
+        sb.write(new File(OUTPUT_FOLDER, filename + ".adoc"));
     }
 
     /**
@@ -394,30 +321,8 @@ public class TradingPostPageBuilder extends Task {
      */
     private void synthesiseMessages(Map<String, Product> products) {
         for (Product p : products.values()) {
-            if (p.stock <= 0) {
-                if (p.onOrder > 0) {
-                    p.message = "ON ORDER";
-                } else {
-                    p.message = "OUT OF STOCK";
-                }
-            } else if (p.stock <= 2) {
-                p.message = "ALMOST GONE";
-            }
+            p.message = "Stock: " + Math.max(0, p.stock) + (p.onOrder > 0 ? " ON ORDER" : "");
         }
-    }
-
-    /**
-     * A hack - I want to make sure that the folder and file names are valid
-     * when trweated as a url. Filenames are normally less restrictive that urls
-     * in many ways. This hack just escapes space characters which appear to be
-     * the only problems in the given files. IF you get image not found errors
-     * with new categories, suspect this method.
-     *
-     * @param s
-     * @return
-     */
-    public static String url(String s) {
-        return s.replace(" ", "%20");
     }
 
     /**
@@ -425,9 +330,9 @@ public class TradingPostPageBuilder extends Task {
      *
      * @param root the root to set
      */
-    public void setRoot(File root) {
-        this.root = root;
-    }
+//    public void setRoot(File root) {
+//        this.root = root;
+//    }
 
     /**
      * Resize output table
@@ -435,6 +340,69 @@ public class TradingPostPageBuilder extends Task {
      * @param i Number of columns - must be even. Default is 8.
      */
     public void setCols(int i) {
-        this.cols = i;
+        this.items_page_cols = i;
+    }
+
+    /**
+     * @param STOCK_FILE the STOCK_FILE to set
+     */
+    public void setSTOCK_FILE(String STOCK_FILE) {
+        this.STOCK_FILE = STOCK_FILE;
+    }
+
+    /**
+     * @param PRODUCT_FILE the PRODUCT_FILE to set
+     */
+    public void setPRODUCT_FILE(String PRODUCT_FILE) {
+        this.PRODUCT_FILE = PRODUCT_FILE;
+    }
+
+    /**
+     * @param OUTPUT_FOLDER the OUTPUT_FOLDER to set
+     */
+    public void setOUTPUT_FOLDER(String OUTPUT_FOLDER) {
+        this.OUTPUT_FOLDER = OUTPUT_FOLDER;
+    }
+
+    /**
+     * @param CATEGORY_MAPPING the CATEGORY_MAPPING to set
+     */
+    public void setCATEGORY_MAPPING(String CATEGORY_MAPPING) {
+        this.CATEGORY_MAPPING = CATEGORY_MAPPING;
+    }
+
+    /**
+     * @param TITLE the TITLE to set
+     */
+    public void setTITLE(String TITLE) {
+        this.TITLE = TITLE;
+    }
+
+    /**
+     * @param SUBTITLE the SUBTITLE to set
+     */
+    public void setSUBTITLE(String SUBTITLE) {
+        this.SUBTITLE = SUBTITLE;
+    }
+
+    /**
+     * @param FOOTER the FOOTER to set
+     */
+    public void setFOOTER(String FOOTER) {
+        this.FOOTER = FOOTER;
+    }
+
+    /**
+     * @param PLACEHOLDER the PLACEHOLDER to set
+     */
+    public void setPLACEHOLDER(String PLACEHOLDER) {
+        this.PLACEHOLDER = PLACEHOLDER;
+    }
+
+    /**
+     * @param IMAGESDIR the IMAGESDIR to set
+     */
+    public void setIMAGESDIR(String IMAGESDIR) {
+        this.IMAGESDIR = IMAGESDIR;
     }
 }

@@ -1,0 +1,669 @@
+:jbake-type: page
+:jbake-status: published
+= Feed and fertiliser
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Vitax 6X Chicken Manure Pellets 1kg A natural organic processed, weed-free fertiliser for use on all plants. Do not apply at the same time as lime - allow 3 weeks between. Manufacturer: Vitax Ltd">6X Chicken Manure 1kg</abbr>]**
+
+
+
+&#163;0.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax 6X Chicken Manure Pellets 2.5kg A natural organic processed, weed-free fertiliser for use on all plants. Do not apply at the same time as lime - allow 3 weeks between. Manufacturer: Vitax Ltd">6X Chicken Manure 2.5kg</abbr>]**
+
+
+
+&#163;1.85
+
+Stock: 19
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **6X Chicken Manure 20kg**
+
+
+
+&#163;14.30
+
+Stock: 8
+a|image::/wrhs2/pics/bulk/Vitax-6X-chick.png[height=40]
+| **pass:[<abbr title="Bayer Baby Bio Original 175ml">Baby Bio Original 175ml</abbr>]**
+
+
+
+&#163;2.65
+
+Stock: 5
+a|image::/wrhs2/pics/feed/Bayer-Baby-Bio.png[height=40]
+| **pass:[<abbr title="Baby Bio Slow Release House Plant Food Tablets">Bio Houseplant tablets</abbr>]**
+
+
+
+&#163;2.85
+
+Stock: 8
+a|image::/wrhs2/pics/feed/Baby-Bio-Tablets.png[height=40]
+| **pass:[<abbr title="Blood Fish & Bone 1kg bag NPK 3:9:3 Apply in Summer for flowers and fruit">Blood Fish Bone 3:9:3 1kg</abbr>]**
+
+
+
+&#163;1.10
+
+Stock: 32
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bone Meal (sterilised) 25kg">Bone Meal (sterilised) 25kg</abbr>]**
+
+
+
+&#163;28.92
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bone Meal 1kg Sterilised Organic slow-release fertiliser containing a high proportion of Phosphorus for healthy root growth. For Roses and vegetables 135g/sq m For tree planting 70g/sq m  Manufacturer: J Arthur Bower">Bone Meal 1kg</abbr>]**
+
+
+
+&#163;1.55
+
+Stock: 22
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Bone Meal 2.5kg Sterilised Organic slow-release fertiliser containing a high proportion of Phosphorus for healthy root growth. For Roses and vegetables 135g/sq m For tree planting 70g/sq m  Manufacturer: J Arthur Bower">Bone Meal 2.5kg</abbr>]**
+
+
+
+&#163;3.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Doff Cont & Basket Feed 1 lt**
+
+
+
+&#163;2.70
+
+Stock: 10
+a|image::/wrhs2/pics/feed/DoffContainerFeed.png[height=40]
+| **Doff Tomato Feed 1 litre**
+
+
+
+&#163;2.60
+
+Stock: 11
+a|image::/wrhs2/pics/feed/Doff-Tomato.png[height=40]
+| **pass:[<abbr title="Doff Tomato Feed 2.5 litre">Doff Tomato Feed 2.5 litre</abbr>]**
+
+
+
+&#163;5.35
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Epsom Salts 25kg sack">Epsom Salts 25kg sack</abbr>]**
+
+
+
+&#163;16.36
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Epsom Salts 500g Rapid cure for Magnesium deficiency. Particularly beneficial for tomatoes and house plants. Apply as necessary during growing season, if yellowing of the leaves between the veins occurs.  Manufacturer: Gem Ltd">Epsom Salts 500g</abbr>]**
+
+
+
+&#163;0.65
+
+Stock: 30
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Ericaceous Fertiliser 1kg 10-25g/sq m">Ericaceous Fert 1kg</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 12
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Scotts Miracle Gro Evergreen Lawn Sand 25kg 17997">Evergreen Lawn Sand 25kg</abbr>]**
+
+
+
+&#163;14.90
+
+Stock: 14
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sinclair Fish Blood & Bone NPK 3:9:3 25kg">Fish Blood & Bone 3:9:3 25kg</abbr>]**
+
+
+
+&#163;28.92
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="J Arthur Bowers Garden Lime 25kg - STX-499628">Garden Lime 25kg</abbr>]**
+
+
+
+&#163;23.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Green Up Lawn Sand 20kg - STX-326691">Green Up Lawn Sand 20kg</abbr>]**
+
+
+
+&#163;14.90
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Grow Organic 15kg sack**
+
+
+
+&#163;7.70
+
+Stock: 0
+a|image::/wrhs2/pics/bulk/Vitax-Groworganic.png[height=40]
+| **pass:[<abbr title="Growmore 1kg General purpose fertiliser. For use all year round.">Growmore 1kg</abbr>]**
+
+
+
+&#163;1.55
+
+Stock: 25
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Growmore 2.5kg General purpose fertiliser. For use all year round.">Growmore 2.5kg</abbr>]**
+
+
+
+&#163;3.75
+
+Stock: 11
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Growmore 500g General purpose fertiliser. For use all year round.">Growmore 500g</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Ammonia 1kg Fast acting source of nitrogen to promote strong growth on green leaf crops. Manufacturer: Vitax Ltd">Hoof & Horn 1kg</abbr>]**
+
+
+
+&#163;1.40
+
+Stock: 18
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="An organic slow release growth promoting fertiliser. Spread 3g/sq m. (1oz/sq yd) If used on lawns, apply before rain or water in.">Hoof & Horn 500g</abbr>]**
+
+
+
+&#163;0.75
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hoof and Horn 20kg">Hoof and Horn 20kg</abbr>]**
+
+
+
+&#163;27.69
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="John Innes Base 1kg A ready mixed blend of Hoof & Horn, Superphosphate, and Potassium Sulphate suitable for mixing with composts. Supplier: Gem Gardening">John Innes Base 1kg</abbr>]**
+
+
+
+&#163;0.95
+
+Stock: 16
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Kohl Rabi Purple Delicacy">John Innes Base 2.5kg</abbr>]**
+
+
+
+&#163;2.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawn Sand 1kg Nitrogenous lawn feed with Ferrous Sulphate moss killer. Bare patches left can be re-seeded 8 weeks after treatment. Apply 135g/sq m in Spring and Summer - min 3 months apart - and water in.">Lawn Sand 1kg</abbr>]**
+
+
+
+&#163;0.75
+
+Stock: 13
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawn Sand 2.5kg Nitrogenous lawn feed with Ferrous Sulphate moss killer. Bare patches left can be re-seeded 8 weeks after treatment. Apply 135g/sq m in Spring and Summer - min 3 months apart - and water in.">Lawn Sand 2.5kg</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawn Weed Feed & Moss Killer 1kg">Lawn Weed Feed Moss 1kg</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawnfeed Autumn 4-12-12 Sportsmaster 1kg Breaks down quickly to give rapid uptake of nutrients, reducing risk of scorch or mower pick up. Application rate: 40g/sq m  Manufacturer: Sportsmaster">Lawnfeed Autumn 1kg</abbr>]**
+
+
+
+&#163;1.65
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawnfeed Autumn 4-12-12 Sportsmaster 2.5kg Breaks down quickly to give rapid uptake of nutrients, reducing risk of scorch or mower pick up. Application rate: 40g/sq m  Manufacturer: Sportsmaster">Lawnfeed Autumn 2.5kg</abbr>]**
+
+
+
+&#163;4.15
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lawnfeed Autumn 4-12-12 Sportsmaster 25kg">Lawnfeed Autumn 25kg</abbr>]**
+
+
+
+&#163;41.10
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Garlic Picardy Wight 1kg bag">Lime 1kg</abbr>]**
+
+
+
+&#163;0.60
+
+Stock: 13
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lime 2.5kg Breaks down heavy soil and neutralises high acidity Manufacturer: Sinclair">Lime 2.5kg</abbr>]**
+
+
+
+&#163;1.35
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Maxicrop Allpurpose 1 litre**
+
+
+
+&#163;8.45
+
+Stock: 11
+a|image::/wrhs2/pics/feed/MaxicropSeaweedPlus1litre.png[height=40]
+| **Maxicrop Complete 500ml**
+
+
+
+&#163;3.45
+
+Stock: 0
+a|image::/wrhs2/pics/feed/Maxicrop-Complete.png[height=40]
+| **Maxicrop Organic Tom 1 litre**
+
+
+
+&#163;7.65
+
+Stock: 12
+a|image::/wrhs2/pics/feed/Maxicrop-Tomato.png[height=40]
+| **Maxicrop Original 2.5 litre**
+
+
+
+&#163;13.10
+
+Stock: 0
+a|image::/wrhs2/pics/feed/Maxicrop-Plant-Growth-2p5.png[height=40]
+| **pass:[<abbr title="Maxicrop Seaweed Plus 500ml">Maxicrop Seaweed 500ml</abbr>]**
+
+
+
+&#163;4.65
+
+Stock: 10
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Nitrate of Chalk 1kg Nitrate of Chalk (Calcium Ammonium Nitrate) 27-0-0   Supplier: Gem Gardening This is a synthetically produced, quick acting fertiliser most frequently used in Spring or early Summer, before planting or during the early days of growth. It is especially useful for brassicas. Apply at the rate of 50 g/sq metre (1.5 oz/sq yd) CAUTION * Do not mix with other fertilisers  * Store in a dry, frost-free place, away from children, pets and foodstuffs *  Wash hands & exposed skin after use  *  Wear gloves when handli">Nitrate of Chalk 1kg</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 19
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Nitrate of Chalk 2.5kg">Nitrate of Chalk 2.5kg</abbr>]**
+
+
+
+&#163;1.90
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Nitrate of Chalk 25kg">Nitrate of Chalk 25kg</abbr>]**
+
+
+
+&#163;14.10
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Orchid Drip Feeder pack of 2">Orchid Drip Feed x2</abbr>]**
+
+
+
+&#163;0.95
+
+Stock: 9
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="200g. CONTAINS NPK, MAGNESIUM & ALL NECESSARY MICRO ELEMENTS Slow release over 6 months, so plants are supplied with nutrients over the whole growing cycle. - APPLICATION RATES BASKETS & POTS 2-4 TEASPOONS IN COMPOSTS 2 TEASPOONS PER 10 LITRES">Osmacote 200g</abbr>]**
+
+
+
+&#163;1.50
+
+Stock: 52
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Osmo Pro 3 (6-4-6) 25kg">Osmo Pro 3 Ericaceous Fert (6-4-6) 25kg</abbr>]**
+
+
+
+&#163;40.77
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Perlite P100 100 litre sack">Perlite P100 100 litre sack</abbr>]**
+
+
+
+&#163;22.30
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Phostrogen All Purpose Plant Food 800g">Phostrogen Plant Food 800g</abbr>]**
+
+
+
+&#163;3.70
+
+Stock: 0
+a|image::/wrhs2/pics/feed/Bayer-Phostrogen.png[height=40]
+| **pass:[<abbr title="Doff Pour and Feed 1 litre">Pour and Feed 1 litre</abbr>]**
+
+
+
+&#163;1.45
+
+Stock: 3
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Q4 Premium Tomato Feed 1 litre">Q4 Prem Tomato Feed 1 litre</abbr>]**
+
+
+
+&#163;6.70
+
+Stock: 17
+a|image::/wrhs2/pics/treat/Vitax-Q4-TomatoFeed-1litre.png[height=40]
+| **pass:[<abbr title="Rose Feed 1kg NPK 5-5-10 70-140grms per sq mtr Encourages bigger blooms; helps prevent disease; adds organic matter. Use as a first feed in Spring. Repeat in Summer after flowering to encourage a second flush. 70-140g/sq m Manufacturer: Sinclair">Rose Feed 1kg</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 25
+a|image::/wrhs2/pics/rbfert/rosefeed.png[height=40]
+| **pass:[<abbr title="Rose Feed 25kg">Rose Feed 25kg</abbr>]**
+
+
+
+&#163;39.46
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sinclair Growmore Granular 25kg">Sinclair Growmore 25kg</abbr>]**
+
+
+
+&#163;34.15
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Spring & Summer Lawnfeed 9-7-7 1kg Breaks down quickly to give rapid uptake of nutrients, reducing risk of scorch or mower pick up. Application rate: 35 - 70 g/sq m  Manufacturer: Sportsmaster">Spring Summer Lawnfeed 1kg</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 30
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Spring & Summer Lawn Feed NPK 9-7-7 2.5kg. Breaks down quickly to give rapid uptake of nutrients, reducing risk of scorch or mower pick up. Application rate: 35 - 70 g/sq m  Manufacturer: Sportsmaster">Spring Summer Lawnfeed 2.5kg</abbr>]**
+
+
+
+&#163;5.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Spring & Summer Lawn feed 9-7-7 25kg">Spring Summer Lawnfeed 25kg</abbr>]**
+
+
+
+&#163;41.84
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lime 1kg Breaks down heavy soil and neutralises high acidity Manufacturer: Sinclair">Sulphate of Ammonia 1kg</abbr>]**
+
+
+
+&#163;1.00
+
+Stock: 29
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Ammonia 2.5kg">Sulphate of Ammonia 2.5kg</abbr>]**
+
+
+
+&#163;2.65
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Ammonia 25kg">Sulphate of Ammonia 25kg</abbr>]**
+
+
+
+&#163;35.69
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Iron 0.5kg">Sulphate of Iron 0.5kg</abbr>]**
+
+
+
+&#163;0.80
+
+Stock: 35
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Iron 25kg sack">Sulphate of Iron 25kg</abbr>]**
+
+
+
+&#163;40.69
+
+Stock: 4
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Potash 1kg Plant food to promote fruit and flowers Manufacturer: Sinclair">Sulphate of Potash 1kg</abbr>]**
+
+
+
+&#163;1.85
+
+Stock: 12
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Potash 2.5kg Plant food to promote fruit and flowers Manufacturer: Sinclair">Sulphate of Potash 2.5kg</abbr>]**
+
+
+
+&#163;4.55
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Potash 25kg sack">Sulphate of Potash 25kg</abbr>]**
+
+
+
+&#163;55.38
+
+Stock: 8
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Hoof & Horn 1kg An organic slow release growth promoting fertiliser. Spread 3g/sq m. (1oz/sq yd) If used on lawns, apply before rain or water in.">Sulphate of Potash 500g</abbr>]**
+
+
+
+&#163;0.95
+
+Stock: 20
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Superphosphate 1kg Helps plants establish quickly for healthier, abundant fruit and vegetables. Promotes strong and healthy rooting. Manufacturer: Gem Ltd.">Superphosphate 1kg</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 25
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Superphosphate 2.5kg Helps plants establish quickly for healthier, abundant fruit and vegetables. Promotes strong and healthy rooting. Manufacturer: Gem Ltd.">Superphosphate 2.5kg</abbr>]**
+
+
+
+&#163;5.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Superphosphate 25kg">Superphosphate 25kg</abbr>]**
+
+
+
+&#163;46.10
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Superphosphate 500g Helps plants establish quickly for healthier, abundant fruit and vegetables. Promotes strong and healthy rooting. Manufacturer: Gem Ltd.">Superphosphate 500g</abbr>]**
+
+
+
+&#163;1.10
+
+Stock: 7
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Tomorite 2.5 litre**
+
+
+
+&#163;6.60
+
+Stock: 0
+a|image::/wrhs2/pics/feed/tomorite.png[height=40]
+| **Tub & Basket Feed 1 litre**
+
+
+
+&#163;3.20
+
+Stock: 13
+a|image::/wrhs2/pics/feed/Vitax-Tub.png[height=40]
+| **pass:[<abbr title="Vitax Compost Maker (composting accelerator) 10kg">Vitax Compost Maker 10kg</abbr>]**
+
+
+
+&#163;10.70
+
+Stock: 5
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **Vitax Houseplant Feed 200ml**
+
+
+
+&#163;1.50
+
+Stock: 0
+a|image::/wrhs2/pics/feed/Vitax-Houseplant-Feed.png[height=40]
+| **Vitax Liquid Tom Feed 2litre**
+
+
+
+&#163;4.00
+
+Stock: 20
+a|image::/wrhs2/pics/feed/Vitax-Tomato-Feed-2.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Plus Fertiliser with Mycorrhizal Fungi 60g">Vitax Q4 Plus 60g</abbr>]**
+
+
+
+&#163;1.30
+
+Stock: 88
+a|image::/wrhs2/pics/treat/Vitax-Q4-Plus-60g.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Plus Fertiliser with Mycorrhizal Fungi 900g">Vitax Q4 Plus 900g</abbr>]**
+
+
+
+&#163;5.40
+
+Stock: 14
+a|image::/wrhs2/pics/treat/Vitax-Q4-Plus-900g.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Premium Soluble Plant Food 1Kg">Vitax Q4 Prem Sol Feed 1kg</abbr>]**
+
+
+
+&#163;7.15
+
+Stock: 6
+a|image::/wrhs2/pics/treat/Vitax-Q4-Soluble.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Professional (NPK 5.3-7.5-10+TE) 1kg All-purpose fertiliser for use in Spring and Summer Manufacturer: Vitax Ltd">Vitax Q4 Pro fert 1kg</abbr>]**
+
+
+
+&#163;2.15
+
+Stock: 15
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Professional (NPK 5.3-7.5-10+TE) 2.5kg All-purpose fertiliser for use in Spring and Summer Manufacturer: Vitax Ltd">Vitax Q4 Pro fert 2.5kg</abbr>]**
+
+
+
+&#163;5.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Vitax Q4 Professional (NPK 5.3-7.5-10+TE) 20kg">Vitax Q4 Pro fert 20kg</abbr>]**
+
+
+
+&#163;51.23
+
+Stock: 2
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Sulphate of Potash 500g Plant food to promote fruit and flowers Manufacturer: Sinclair">Vitax Q4 Pro fertiliser 500g</abbr>]**
+
+
+
+&#163;1.10
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|===

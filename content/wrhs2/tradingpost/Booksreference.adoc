@@ -1,0 +1,113 @@
+:jbake-type: page
+:jbake-status: published
+= Books, reference
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Complete book of Gardening">Complete book of Gardening</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening">Encyc Gardening</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 1 ABE-COL">Encyc Gardening Vol 1 ABE-COL</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 2 COL-FRU">Encyc Gardening Vol 2 COL-FRU</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 3 FRU-IRI">Encyc Gardening Vol 3 FRU-IRI</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 4 KIT-NUT">Encyc Gardening Vol 4 KIT-NUT</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 5 NUY-POT">Encyc Gardening Vol 5 NUY-POT</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 6 POT-SED">Encyc Gardening Vol 6 POT-SED</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 7 SED-ZYG">Encyc Gardening Vol 7 SED-ZYG</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Encyclopedia of Gardening volume 8 Calendar & Index">Encyc Gardening Vol 8 Calendar & Index</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="R.H.S.Gardening Manual">R.H.S.Gardening Manual</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="The Principles of Gardening">The Principles of Gardening</abbr>]**
+
+
+
+&#163;0.00
+
+Stock: 1
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|
+|
+|
+|
+|===

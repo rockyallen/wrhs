@@ -1,0 +1,93 @@
+:jbake-type: page
+:jbake-status: published
+= Plug Plants
+Auto generated
+2019-01-26
+
+[options=noheader,cols=8,grid=1,frame=1]
+|===
+| **pass:[<abbr title="Alternanthera Purple Knight plug x5">Alternanthera Purple Knight plug x5</abbr>]**
+
+
+
+&#163;2.35
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Antirrhinum F1 Twinny plug x10">Antirrhinum F1 Twinny plug x10</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Calibrachoa F1 Kabloom plug x5">Calibrachoa F1 Kabloom plug x5</abbr>]**
+
+
+
+&#163;2.40
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Cosmos Razzmatazz plug x5">Cosmos Razzmatazz plug x5</abbr>]**
+
+
+
+&#163;1.95
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Dianthus F1 Corona plug x10">Dianthus F1 Corona plug x10</abbr>]**
+
+
+
+&#163;1.75
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Dianthus F1 Sweet plug x5">Dianthus F1 Sweet plug x5</abbr>]**
+
+
+
+&#163;2.25
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Gazania F1 Daybreak plug x10">Gazania F1 Daybreak plug x10</abbr>]**
+
+
+
+&#163;1.60
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lobelia String of Pearls plug x20">Lobelia String of Pearls plug x20</abbr>]**
+
+
+
+&#163;1.45
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Lobelia trailing Regatta plug x20">Lobelia trailing Regatta plug x20</abbr>]**
+
+
+
+&#163;1.45
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+| **pass:[<abbr title="Nemesia Sundrops plug x10">Nemesia Sundrops plug x10</abbr>]**
+
+
+
+&#163;1.70
+
+Stock: 0
+a|image::/wrhs2/pics/placeholder.png[height=40]
+|
+|
+|
+|
+|===
