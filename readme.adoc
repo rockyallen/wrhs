@@ -42,6 +42,11 @@ TODO: (maybe) Generate the trading post pages using H2 and Ant. After all, it is
 
 === Build
 
+[IMPORTANT]
+You only need to do this if you have changed the Java code.
+This should be very rare. See <<changeformat>>.
+
+
 * Open a command window and change directory to wrhs/.
 Type:
 +
@@ -55,7 +60,7 @@ Type:
 To use JBake, open a command window and change directory to wrhs/.
 Type:
 +
-  ant preview
+  ant run
 +
 Or if you have python installed, open a command window and change directory to wrhs/output/.
 Type:
@@ -71,7 +76,7 @@ The website will appear, served directly from the output folder.
 * Open a command window and change directory to wrhs/.
 Type
 +
-  ant clean build deploy
+  ant clean run deploy
 +
 You will be prompted for the username and password.
 
@@ -106,7 +111,7 @@ The file type can be either .png or .jpg.
 The file size should be less than 20K (5K is better).
 Add the photo to "assets/pics/" in a sensible subfolder.
 
-Add a line to imagemapping.csv:
+Add a line to extrainfo.csv:
 
 . Open the file using Excel, Calc, or a text editor.
 
@@ -121,6 +126,8 @@ Create a new page by typing a different title, or reuse one of the others.
 
 . If you have a thumbnail for it (or want to re-use one) add it the the image column.
 
+. If you want to add any other helpful stuff, put it in the info column.
+If this column has anything in it, it is added as a tooltip to the product name.
 
 Preview the website to make sure that the image appears correctly (<<sect-preview>>).
 
@@ -157,19 +164,7 @@ You can switch it off temporarily without deleting it by setting column "show" t
 == Add a newsletter for a new year
 
 The website is prepared up to 2020.
-To make future years visible, uncomment them in file templates/menu.ftl, ie change 
-
-[xml]
---
-  <!-- <li><a href="/newsletters/2019/index.html">2019</a></li> -->
---
-
-to
-
-[xml]
---
-  <li><a href="/newsletters/2019/index.html">2019</a></li>
---
+To make future years visible, edit the ALL_NEWLETTERS string in nbbuild.xml.
 
 For years after 2020 (for example 2021):
 
@@ -177,16 +172,7 @@ For years after 2020 (for example 2021):
 
 * Create a folder wrhs/content/newsletters/2021/.
 
-* Edit wrhs/nbbuild.xml and add a new line to the "-post-jar" target following the example of the others.
-
-* Edit file templates/menu.ftl and add a new line 
-
-[xml]
---
-  <li><a href="/newsletters/2021/index.html">2021</a></li>
---
-
-in the "Newsletters" dropdown (~line 23).
+* Edit wrhs/nbbuild.xml and add a new line to the "generate" target following the example of the others.
 
 * Add the newsletter as above (<<add-newsletter>>).
 
@@ -236,6 +222,7 @@ Edit the file in any text editor (NOT Word) following the existing example, then
 Edit files in wrhs/assets/css/. 
 You are on your own. (but theme needs work).
 
+[[changeformat]]
 == Edit the format of Trading Post product listings
 
 These are done in Java. 

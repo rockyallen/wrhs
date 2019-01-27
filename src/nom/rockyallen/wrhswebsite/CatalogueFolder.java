@@ -25,6 +25,7 @@ public class CatalogueFolder extends Task {
     private File asciidocFileToWrite = null;
     private String title = null;
     private String before = "";
+    private String between = " ";
     private String after = "";
 
     @Override
@@ -50,19 +51,20 @@ public class CatalogueFolder extends Task {
 
             sb.header(title, AsciidocBuilder.commonAttributes());
 
-            sb.line("");
-            sb.line("");
+             sb.text("\n");
+             sb.text("\n");
 
-            sb.line(before);
+             sb.text(before);
             
             for (String s : names) {
-                sb.text("image:" + s.substring(0, s.length() - 4) + ".png[" + s + ",link=" + s + "] ");
+                sb.text("image:" + s.substring(0, s.length() - 4) + ".png[" + s + ",link=" + s + "]");
+                sb.text(between);
             }
 
-            sb.line("");
-            sb.line("");
+             sb.text("\n");
+             sb.text("\n");
 
-            sb.line(after);
+             sb.text(after);
 
             sb.write(asciidocFileToWrite);
         } catch (Exception ex) {
@@ -81,7 +83,7 @@ public class CatalogueFolder extends Task {
     /**
      * @param folderToSearch the folderToSearch to set
      */
-    public void setIndir(File folderToSearch) {
+    public void setFolder(File folderToSearch) {
         this.folderToSearch = folderToSearch;
     }
 
@@ -111,5 +113,12 @@ public class CatalogueFolder extends Task {
      */
     public void setAfter(String footer) {
         this.after = footer;
+    }
+
+    /**
+     * @param between the between to set
+     */
+    public void setBetween(String between) {
+        this.between = between;
     }
 }

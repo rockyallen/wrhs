@@ -3,11 +3,11 @@
 :stylesheet: css/plain.css
 = 2021
 Auto generated
-2019-01-26
+2019-01-27
 
 
 
 
 
+All years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]
 
-Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]

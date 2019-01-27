@@ -1,0 +1,20 @@
+:stylesheet: plain.css
+:jbake-type: page
+:jbake-status: published
+= The Society
+Rocky Allen
+2013-10-17
+
+link:about.html[About]
+
+link:society/contacts.html[Committee and contacts]
+
+link:meetings/index.html[Committee meetings]
+
+link:society/workparties.html[Work parties]
+
+link:society/calendar.html[Calendar]
+
+link:society/constitution.pdf[Constitution]
+
+link:society/history.html[History]

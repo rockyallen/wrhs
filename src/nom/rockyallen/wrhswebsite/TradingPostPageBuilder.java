@@ -1,10 +1,13 @@
 package nom.rockyallen.wrhswebsite;
 
 import com.csvreader.CsvReader;
+import com.csvreader.CsvWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
@@ -30,18 +33,17 @@ public class TradingPostPageBuilder extends Task {
     private String SUBTITLE = null;
     private String FOOTER = null;
     private String PLACEHOLDER = null;
+    private String INFO_EXPORT = null;
 
     //private File root = null;
-
     private int items_page_cols = 8;
     private String IMAGESDIR = "";
+    Map<String, Product> products = new TreeMap<String, Product>();
 
     @Override
     public void execute() throws BuildException {
 
         try {
-            Map<String, Product> products = new TreeMap<String, Product>();
-
             readProducts(products, new File(PRODUCT_FILE));
 
             updateStockLevels(products, new File(STOCK_FILE));
@@ -51,6 +53,10 @@ public class TradingPostPageBuilder extends Task {
             synthesiseMessages(products);
 
             makeWeb(products);
+
+            if (INFO_EXPORT != null) {
+                exportInfoFile(INFO_EXPORT);
+            }
 
         } catch (Exception ex) {
             throw new BuildException(ex);
@@ -76,7 +82,7 @@ public class TradingPostPageBuilder extends Task {
      */
     private void readProducts(Map<String, Product> items, File f) throws IOException, NumberFormatException {
         //System.out.println("Reading products...");
-        CsvReader r1 = open(f);
+        CsvReader r1 = openCsv(f);
         int r1_idColumn = r1.getIndex("ProductID");
         int r1_nameColumn = r1.getIndex("Product Name");
         int r1_categoryColumn = r1.getIndex("Category Name");
@@ -96,14 +102,14 @@ public class TradingPostPageBuilder extends Task {
     }
 
     /**
-     * Prepare fname for reading.
+     * Convenience method to prepare fname for reading.
      *
      * After this, the first call to readRecord will return the first data row.
      *
-     * @param f
-     * @return
+     * @param f File to open
+     * @return The column headings
      */
-    private CsvReader open(File f) throws FileNotFoundException, IOException {
+    private CsvReader openCsv(File f) throws FileNotFoundException, IOException {
         if (!f.exists()) {
             throw new FileNotFoundException(f.getAbsolutePath());
         }
@@ -129,7 +135,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws DataException if
      */
     private void updateStockLevels(Map<String, Product> products, File f) throws IOException, NumberFormatException, Exception {
-        CsvReader reader = open(f);
+        CsvReader reader = openCsv(f);
         int idColumn = reader.getIndex("ProductID");
         int stockColumn = reader.getIndex("Current Stock");
         int orderColumn = reader.getIndex("On Order");
@@ -178,7 +184,7 @@ public class TradingPostPageBuilder extends Task {
      * @throws DataException
      */
     private void readCategoriesAndImages(Map<String, Product> products, File f) throws FileNotFoundException, IOException, DataException {
-        CsvReader reader = open(f);
+        CsvReader reader = openCsv(f);
         int productidcol = reader.getIndex("productid");
         int mappingcol = reader.getIndex("page");
         int imagecol = reader.getIndex("image");
@@ -237,8 +243,8 @@ public class TradingPostPageBuilder extends Task {
 
         AsciidocBuilder sb = new AsciidocBuilder();
         sb.header(TITLE, AsciidocBuilder.commonAttributes());
-        sb.line(SUBTITLE);
-        sb.line("");
+        sb.text(SUBTITLE+"\n");
+        sb.text("\n");
         for (String category : categories) {
             Set<Product> itemsInCategory = new TreeSet<Product>();
             for (Product p : products.values()) {
@@ -248,11 +254,11 @@ public class TradingPostPageBuilder extends Task {
             }
             // Mangle s into a string suitable for a Windows or Unix filename.
             String filename = category.replaceAll("[^a-zA-Z0-9&]+", "");
-            sb.line("* link:" + filename + ".html[" + category + "] (" + itemsInCategory.size() + " products)");
+            sb.text("* link:" + filename + ".html[" + category + "] (" + itemsInCategory.size() + " products)\n");
 
             makeCategoryPage(category, itemsInCategory, filename);
         }
-        sb.line(FOOTER);
+        sb.text(FOOTER+"\n");
 
         sb.write(new File(new File(OUTPUT_FOLDER), "categories.adoc"));
     }
@@ -269,8 +275,8 @@ public class TradingPostPageBuilder extends Task {
         //System.out.println("Creating page for " + category);
         AsciidocBuilder sb = new AsciidocBuilder();
         sb.header(category);
-        sb.line("[options=noheader,cols=" + items_page_cols + ",grid=1,frame=1]");
-        sb.line("|===");
+        sb.text("[options=noheader,cols=" + items_page_cols + ",grid=1,frame=1]\n");
+        sb.text("|===\n");
         //sb.line("| |Name |Description |price |Stock (at {localdate}) |Notes");
         for (Product p : inCategory) {
 
@@ -278,7 +284,7 @@ public class TradingPostPageBuilder extends Task {
             if (p.image == null || p.image.isEmpty()) {
                 image = PLACEHOLDER;
             } else {
-                image = IMAGESDIR+p.image;
+                image = IMAGESDIR + p.image;
             }
 
             /*
@@ -286,23 +292,23 @@ public class TradingPostPageBuilder extends Task {
              +<div class="tooltip">+Hover over me<span class="tooltiptext">Tooltip text</span></div> 
              */
             if (p.info == null | p.info.isEmpty()) {
-                sb.line("| **" + p.name + "**");
+                sb.text("| **" + p.name + "**\n");
             } else {
-                sb.line("| **pass:[<abbr title=\"" + p.info + "\">" + p.name + "</abbr>]**");
+                sb.text("| **pass:[<abbr title=\"" + p.info + "\">" + p.name + "</abbr>]**\n");
             }
-            sb.line("\n" + p.description);
-            sb.line("\n" + String.format("&#163;%4.2f", p.price));
-            sb.line("\n" + p.message);
-            sb.line("a|image::" + image + "[height=40]");
+            sb.text("\n" + p.description+ "\n");
+            sb.text("\n" + String.format("&#163;%4.2f", p.price)+"\n");
+            sb.text("\n" + p.message+"\n");
+            sb.text("a|image::" + image + "[height=40]\n");
         }
 
         // table must have complete rows otherwise the last row is truncated
         int emptyCells = items_page_cols - (inCategory.size()) * 2 % items_page_cols;
         while (emptyCells-- > 0) {
-            sb.line("|");
+            sb.text("|\n");
         }
 
-        sb.line("|===");
+        sb.text("|===\n");
         sb.write(new File(OUTPUT_FOLDER, filename + ".adoc"));
     }
 
@@ -333,7 +339,6 @@ public class TradingPostPageBuilder extends Task {
 //    public void setRoot(File root) {
 //        this.root = root;
 //    }
-
     /**
      * Resize output table
      *
@@ -404,5 +409,22 @@ public class TradingPostPageBuilder extends Task {
      */
     public void setIMAGESDIR(String IMAGESDIR) {
         this.IMAGESDIR = IMAGESDIR;
+    }
+
+    private void exportInfoFile(String INFO_EXPORT) throws IOException {
+        CsvWriter w = new CsvWriter(INFO_EXPORT);
+        w.writeRecord(new String[]{"productid", "description", "page", "image", "info","show"});
+        for (Map.Entry<String, Product> e : products.entrySet()) {
+            Product p = e.getValue();
+            w.writeRecord(new String[]{e.getKey(), p.name, p.category, p.image, p.info, (p.show  ? "1" : "0")});
+        }
+        w.close();
+    }
+
+    /**
+     * @param INFO_EXPORT the INFO_EXPORT to set
+     */
+    public void setINFO_EXPORT(String INFO_EXPORT) {
+        this.INFO_EXPORT = INFO_EXPORT;
     }
 }
