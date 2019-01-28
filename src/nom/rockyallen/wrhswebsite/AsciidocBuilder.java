@@ -39,12 +39,12 @@ public class AsciidocBuilder {
         sb.append(dtf.format(localDate) + "\n\n");
     }
 
-    public void line(String s) {
-        sb.append(s).append("\n");
-    }
+//    public void line(String s) {
+//        sb.append(s.replace("\\n","\n")).append("\n");
+//    }
 
     public void text(String s) {
-        sb.append(s);
+        sb.append(s.replace("\\n","\n"));
     }
 
     public void write(File file) throws IOException {

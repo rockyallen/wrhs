@@ -15,7 +15,6 @@
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>wrhs2/css/asciidoctor.css" rel="stylesheet">   
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>wrhs2/css/base.css" rel="stylesheet">
     <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>wrhs2/css/prettify.css" rel="stylesheet">
-    <link href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>wrhs2/css/tooltips.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

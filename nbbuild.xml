@@ -2,37 +2,7 @@
 <project name="wrhs" default="generate" basedir=".">
     <description>Builds, tests, and runs the project wrhs.</description>
     <import file="nbproject/build-impl.xml"/>
-    <!--
-    There exist several targets which are by default empty and which can be 
-    used for execution of your tasks. These targets are usually executed 
-    before and after some main targets. They are: 
-
-      -pre-init:                 called before initialization of project properties
-      -post-init:                called after initialization of project properties
-      -pre-compile:              called before javac compilation
-      -post-compile:             called after javac compilation
-      -pre-compile-single:       called before javac compilation of single file
-      -post-compile-single:      called after javac compilation of single file
-      -pre-compile-test:         called before javac compilation of JUnit tests
-      -post-compile-test:        called after javac compilation of JUnit tests
-      -pre-compile-test-single:  called before javac compilation of single JUnit test
-      -post-compile-test-single: called after javac compilation of single JUunit test
-      -pre-jar:                  called before JAR building
-      -post-jar:                 called after JAR building
-      -post-clean:               called after cleaning build products
-
-    -->
     
-    <target name="-post-clean">
-        <echo>Removing last output...</echo>
-        <delete includeemptydirs="true">
-            <fileset dir="content/wrhs2/tradingpost/" includes="**/*"/>
-        </delete>    
-        <delete includeemptydirs="true">
-            <fileset dir="output" includes="**/*"/>
-        </delete>    
-    </target>
-
     <target name="-pre-init">
         <property name="jbake.home" location="../jbake-2.5.1/"/>
         <property name="jbake.jar" location="${jbake.home}/jbake-core.jar"/>
@@ -41,15 +11,30 @@
 
     <target name="all" depends="clean,jar,generate" description="Build and deploy">
     </target>
+    
+    <target name="-post-clean">
+        <delete dir="content/wrhs2/tradingpost" includes="*.*"/>
+    </target>
+    
+    <target name="-post-jar">
+        <copy file="dist/wrhs.jar" todir="lib" overwrite="true"/>        
+    </target>
 
     <target name="generate" depends="init" description="Build web site">
         
-        <copy file="dist/wrhs.jar" todir="lib" overwrite="true"/>
-        
+        <echo>Removing last output...</echo>
+        <delete includeemptydirs="true">
+            <fileset dir="content/wrhs2/tradingpost/" includes="**/*"/>
+        </delete>    
+        <delete includeemptydirs="true">
+            <fileset dir="output" includes="**/*"/>
+        </delete>    
+
         <echo>Creating website files ...</echo>
         
-        <property name="otheryears" value="Other years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]"/>
-        
+        <property name="ALL_NEWLETTERS" value="All years: link:../2016/index.html[2016] link:../2017/index.html[2017] link:../2018/index.html[2018] link:../2019/index.html[2019]\n\n"/>
+
+        <!-- leave these taskdefs here - if you do an all, the jar has not been created at the start of the file -->        
         <taskdef 
             classpath="lib/wrhs.jar;lib/javacsv.jar" 
             classname="nom.rockyallen.wrhswebsite.TradingPostPageBuilder" 
@@ -60,7 +45,9 @@
             classname="nom.rockyallen.wrhswebsite.CatalogueFolder" 
             name="CatalogueFolder"/>
         
-        <!-- The first group should not need to be played wth. The others change at will. -->
+        <!-- Generate the trading post pages.
+            You can customise it by changint the attributes at the top.
+            The first group should not need to be played wth. The others can change at will. -->
         <TradingPostPageBuilder 
             STOCK_FILE = "tradingpost/WRHSTradingPost_Self_StockImportTemplate.csv"
             PRODUCT_FILE = "tradingpost/WRHSTradingPost_Self_ProductUpdateTemplate.csv"
@@ -68,69 +55,75 @@
             CATEGORY_MAPPING = "tradingpost/extrainfo.csv"
             PLACEHOLDER = "/wrhs2/pics/placeholder.png"
             IMAGESDIR = "/wrhs2/"
+            INFO_EXPORT = "build/extrainfo.csv"
             
             TITLE = "THE TRADING POST"
-            SUBTITLE = "Open to Members only: Wednesday 2.00pm - 4.00pm, Saturday 9.30am - 12.30pm"
+            SUBTITLE = "Open to Members only: Wednesday 2.00pm - 4.00pm, Saturday 9.30am - 12.30pm. Stock levels updated 8 September 2018."
             FOOTER = "\nAll information on this website is offered in good faith but is used entirely at the user's own risk."
         />
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/events" 
-            outfile="${basedir}/content/wrhs2/events/index.adoc" 
-            title="Events"/>
+            folder="${basedir}/assets/wrhs2/meetings"
+            outfile="${basedir}/content/wrhs2/meetings/index.adoc" 
+            title="Meetings"
+            between="\n\n"
+            before="Comittee meetings are open to committee members and invitees.\nThe AGM is open to all members.\n\nIf you have something you would like to raise at the next meeting, please contact the secretary at mailto:secretary@wrhs.org.uk[]\n\n"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2021" 
+            folder="${basedir}/assets/wrhs2/events" 
+            outfile="${basedir}/content/wrhs2/events/index.adoc" 
+            title="Events"
+            before="Also see the calendar\n\n"/>
+        
+        <CatalogueFolder 
+            folder="${basedir}/assets/wrhs2/newsletters/2021" 
             outfile="${basedir}/content/wrhs2/newsletters/2021/index.adoc" 
             title="2021"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2020" 
+            folder="${basedir}/assets/wrhs2/newsletters/2020" 
             outfile="${basedir}/content/wrhs2/newsletters/2020/index.adoc" 
             title="2020"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2019" 
+            folder="${basedir}/assets/wrhs2/newsletters/2019" 
             outfile="${basedir}/content/wrhs2/newsletters/2019/index.adoc" 
             title="2019"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2018" 
+            folder="${basedir}/assets/wrhs2/newsletters/2018" 
             outfile="${basedir}/content/wrhs2/newsletters/2018/index.adoc" 
             title="2018"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2017" 
+            folder="${basedir}/assets/wrhs2/newsletters/2017" 
             outfile="${basedir}/content/wrhs2/newsletters/2017/index.adoc" 
             title="2017"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <CatalogueFolder 
-            indir="${basedir}/assets/wrhs2/newsletters/2016" 
+            folder="${basedir}/assets/wrhs2/newsletters/2016" 
             outfile="${basedir}/content/wrhs2/newsletters/2016/index.adoc" 
             title="2016"
             before=""
-            after="${otheryears}"/>
+            after="${ALL_NEWLETTERS}"/>
         
         <echo>Building website ...</echo>
-        <antcall target="-bake"/>
-        
-        <move file="output/index.html" tofile="output/index2.html"/>
-    </target>
-
-    <target name="-bake" depends="init" description="Build web site">
         <java fork="true" jar="${jbake.jar}">
             <arg value="-b"/>
         </java>
+        
+        <!-- this is a hack because I want to demonstrate to Dave without overwriting anything on the current website.-->
+        <move file="output/index.html" tofile="output/index2.html"/>
     </target>
 
     <target name="deploy" description="Deploy to server">
