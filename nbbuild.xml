@@ -4,9 +4,11 @@
     <import file="nbproject/build-impl.xml"/>
     
     <target name="-pre-init">
+        <mkdir dir="build"/>
+        <mkdir dir="dist"/>
+        <mkdir dir="output"/>
         <property name="jbake.home" location="../jbake-2.5.1/"/>
         <property name="jbake.jar" location="${jbake.home}/jbake-core.jar"/>
-        <mkdir dir="output"/>
     </target>
 
     <target name="all" depends="clean,jar,generate" description="Build and deploy">
@@ -41,7 +43,7 @@
             name="TradingPostPageBuilder"/>
         
         <taskdef 
-            classpath="dist/wrhs.jar;lib/javacsv.jar" 
+            classpath="lib/wrhs.jar;lib/javacsv.jar" 
             classname="nom.rockyallen.wrhswebsite.CatalogueFolder" 
             name="CatalogueFolder"/>
         

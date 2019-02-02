@@ -764,17 +764,17 @@ productid,description,page,image,info,show
 3586453,Split Canes 30 inch x10,Flower Arranging,pics/arr/SplitCanes.png,,1
 3586454,Multipurpose Compost 40 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Multipurpose.png,,1
 3586455,Grow Organic 15kg sack,Feed and fertiliser,pics/bulk/Vitax-Groworganic.png,,1
-3586456,Horse Manure 45 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Horse.png,,1
-3586457,Horse Manure 70 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Horse.png,,1
-3586458,John Innes No.1 25 litre,Compost and growing media,pics/bulk/Bowers-JI-No1.png,,1
-3586459,John Innes No.3 25 litre,Compost and growing media,pics/bulk/Bowers-JI-No3.png,,1
-3586461,Growbag 33 litre Oaktree,Compost and growing media,pics/bulk/OaktreeGrowbagDiag.png,,1
+3586456,Horse Manure 45 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Horse.png,,0
+3586457,Horse Manure 70 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Horse.png,,0
+3586458,John Innes No.1 25 litre,Compost and growing media,pics/bulk/Bowers-JI-No1.png,,0
+3586459,John Innes No.3 25 litre,Compost and growing media,pics/bulk/Bowers-JI-No3.png,,0
+3586461,Growbag 33 litre Oaktree,Compost and growing media,pics/bulk/OaktreeGrowbagDiag.png,,0
 3586462,Sharp Sand 8 litre bag,Compost and growing media,pics/bulk/WRHS-grit.png,,0
-3586463,Somerset Peat sack Oaktree,Compost and growing media,pics/bulk/Oaktree-Peat.png,,1
-3586464,Top Soil sack Oaktree,Compost and growing media,pics/bulk/Oaktree-Topsoil.png,,1
+3586463,Somerset Peat sack Oaktree,Compost and growing media,pics/bulk/Oaktree-Peat.png,,0
+3586464,Top Soil sack Oaktree,Compost and growing media,pics/bulk/Oaktree-Topsoil.png,,0
 3588045,Membership (New),,,,0
 3588054,Membership (Renewal),,,,0
-3592761,Multipurpose Compost 80 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Multipurpose.png,,1
+3592761,Multipurpose Compost 80 litre Oaktree,Compost and growing media,pics/bulk/Oaktree-Multipurpose.png,,0
 3678625,Raffle Tickets,,,,0
 3704589,Lawn Seed Hard Wearing 100g,"Seeds, grass",pics/lawn/LawnSeed.png,,1
 3704777,T Label white x5,Labels and Ties,,,1
@@ -868,7 +868,7 @@ productid,description,page,image,info,show
 5860017,Hand Fork S&J,Tools and Equipment,pics/tools/SpearJacksonFork4053NB.png,Spear & Jackson Elements 4053NB,1
 5869038,W/S Telescopic Tree Cutter,Tools and Equipment,pics/tools/WilkinsonTreeCutter1111171W.png,Wilkinson Sword 1111171W Telescopic Tree Cutter,1
 5869288,Swoe SS Fiskars,Tools and Equipment,pics/tools/FiskarsSwoe.png,Swoe Stainless Steel Fiskars FSK136409,1
-5869345,Hose Connector Male-Male Green,Watering,pics/water/DoubleMaleGreen.png,"Hose Connector Male-Male Green, � in",1
+5869345,Hose Connector Male-Male Green,Watering,pics/water/DoubleMaleGreen.png,"Hose Connector Male-Male Green, ? in",1
 5869376,Hose Repair Connector Green,Watering,pics/water/HoseConnectorFemaleFemaleGreen.png,Garden Hose Repair Connector Draper 89383 1/2-inch Female-Female Green,1
 5869479,Watering Can Rose No.14,Watering,,,1
 5869644,M/P1-3mm Grit 1000kg,,,,0
@@ -1675,19 +1675,19 @@ productid,description,page,image,info,show
 9244715,Dwarf FrBean Masterpiece 1kg,,,,0
 9244720,Runner Bean Moonlight 1kg,,,,0
 9244780,Oriental Bean Edamame 200g,,,,0
-9257325,Multipurpose Compost 40 litre Durston,Compost and growing media,,,1
-9257339,Multipurpose Compost 60 litre Durston,Compost and growing media,,,1
-9257455,Ericaceous Compost 40 litre Durston,Compost and growing media,,,1
-9257480,Peat Free Compost 40 litre Durston,Compost and growing media,,,1
-9257488,Farmyard Manure 40 litre Durston,Compost and growing media,,,1
-9257551,Growbag (Standard) Durston,Compost and growing media,,,1
+9257325,Multipurpose Compost 40 litre Durston,Compost and growing media,,,0
+9257339,Multipurpose Compost 60 litre Durston,Compost and growing media,pics/bulk/mpc-60l-hi.jpg,,1
+9257455,Ericaceous Compost 40 litre Durston,Compost and growing media,pics/bulk/ericaceous-60l-hi.jpg,,1
+9257480,Peat Free Compost 40 litre Durston,Compost and growing media,pics/bulk/mpc-peatfree-40l-hi.jpg,,1
+9257488,Farmyard Manure 40 litre Durston,Compost and growing media,pics/bulk/farmyard-40l-hi.jpg,,1
+9257551,Growbag (Standard) Durston,Compost and growing media,pics/bulk/grow-bag.jpg,,1
 9257631,Multipurpose Compost 40 litre x70,,,,0
 9257654,MultipurposeCompost 60 litre x55,,,,0
 9257678,Ericaceous Compost 40 litre x70,,,,0
 9257692,Peat Free Compost 40 litre x70,,,,0
 9257710,Farmyard Manure 40 litre x70,,,,0
 9257718,Growbag (Standard) x100,,,,0
-9257737,Bark large chip 100 litre Durston,Compost and growing media,,,1
+9257737,Bark large chip 100 litre Durston,Compost and growing media,pics/bulk/large-chip-bark2.jpg,,1
 9257744,Bark large chip 100 litre x35,,,,0
 9257903,Doff Tomato Feed 2.5litre x4,,,,0
 9257932,Roseclear Conc 200ml x6,,,,0
